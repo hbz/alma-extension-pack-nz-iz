@@ -169,7 +169,7 @@
 					<description>Verknüpfung</description>
 				</sub_field_configuration>
 				<sub_field_configuration repeatable="true" mandatory="false" code="8">
-					<description>Feldverknüpfung und Sequenznummer</description>
+					<description>Feldverknüpfung und Reihenfolge</description>
 				</sub_field_configuration>
 				<sub_field_configuration repeatable="true" mandatory="false" code="9">
 					<description>Nummer mit Bindestrich</description>
@@ -306,120 +306,112 @@
 				<sub_field_configuration repeatable="true" mandatory="false" code="a">
 					<description>Sprachcode der Ressource</description>
 					<values>
-						<value code="egy">Ägyptisch</value>
-						<value code="gez">Äthiopisch</value>
 						<value code="abk">Abchasisch</value>
-						<value code="ace">Aceh</value>
-						<value code="ach">Acholi</value>
-						<value code="ada">Adangme</value>
+						<value code="ace">Aceh-Sprache</value>
+						<value code="ach">Acholi-Sprache</value>
+						<value code="ada">Adangme-Sprache</value>
 						<value code="ady">Adygisch</value>
+						<value code="egy">Ägyptisch</value>
 						<value code="pus">Afganisch (= Paschtu)</value>
 						<value code="afh">Afrihili</value>
 						<value code="afr">Afrikaans</value>
-						<value code="ain">Ainu</value>
-						<value code="aka">Akan</value>
+						<value code="ain">Ainu-Sprache</value>
+						<value code="aka">Akan-Sprache</value>
 						<value code="akk">Akkadisch (z.B. Babylonisch)</value>
 						<value code="alb">Albanisch</value>
 						<value code="ale">Aleutisch</value>
-						<value code="alg">Algonkin-Sprachen</value>
+						<value code="alg">Algonkin-Sprachen (Andere)</value>
 						<value code="alt">Altaisch</value>
-						<value code="tut">Altaische Sprachen</value>
-						<value code="gez">Altäthiopisch</value>
-						<value code="ang">Altenglisch [ca.450-1100]</value>
-						<value code="fro">Altfranzösisch [ca.842-1400]</value>
-						<value code="goh">Althochdeutsch [bis 900]</value>
+						<value code="tut">Altaische Sprachen (Andere)</value>
+						<value code="ang">Altenglisch</value>
+						<value code="fro">Altfranzösisch</value>
+						<value code="goh">Althochdeutsch</value>
 						<value code="sga">Altirisch</value>
 						<value code="nwc">Alt-Newari</value>
 						<value code="non">Altnorwegisch</value>
-						<value code="pro">Altokzitanisch [bis 1500]</value>
-						<value code="chu">Altslawisch</value>
+						<value code="pro">Altokzitanisch</value>
+						<value code="peo">Altpersisch</value>
 						<value code="amh">Amharisch</value>
-						<value code="anp">Anga</value>
-						<value code="apa">Apachen-Sprachen</value>
+						<value code="anp">Anga-Sprache</value>
+						<value code="apa">Apachen-Sprache</value>
 						<value code="ara">Arabisch</value>
 						<value code="arg">Aragonesisch</value>
-						<value code="arc">Aramäisch [700-300 v.Chr.]</value>
-						<value code="arp">Arapaho</value>
-						<value code="arn">Arauka</value>
-						<value code="arw">Arawak</value>
+						<value code="arc">Aramäisch</value>
+						<value code="arp">Arapaho-Sprache</value>
+						<value code="arn">Arauka-Sprache</value>
+						<value code="arw">Arawak-Sprache</value>
 						<value code="arm">Armenisch</value>
 						<value code="rup">Aromunisch</value>
 						<value code="aze">Aserbeidschanisch</value>
 						<value code="asm">Assamesisch</value>
-						<value code="ast">Asturisch; Bable</value>
-						<value code="ath">Athapaskische Sprachen</value>
+						<value code="ast">Asturisch</value>
+						<value code="ath">Athapaskische Sprachen (Andere)</value>
 						<value code="aus">Australisch</value>
 						<value code="map">Austronesische Sprachen</value>
 						<value code="ave">Avestisch</value>
 						<value code="awa">Awadhi</value>
 						<value code="ava">Awarisch</value>
 						<value code="ave">Awestisch</value>
-						<value code="aym">Aymara</value>
-						<value code="nah">Aztekisch -&gt; Nahuatl</value>
+						<value code="aym">Aymara-Sprache</value>
 						<value code="ind">Bahasa Indonesia</value>
 						<value code="ban">Balinesisch</value>
-						<value code="bat">Baltische Sprachen</value>
-						<value code="bal">Baluchi</value>
-						<value code="bam">Bambara</value>
-						<value code="bai">Bamilek</value>
-						<value code="bad">Banda-Sprachen</value>
-						<value code="bnt">Bantu-Sprachen</value>
-						<value code="bas">Basaa</value>
+						<value code="bat">Baltische Sprachen (Andere)</value>
+						<value code="bam">Bambara-Sprache</value>
+						<value code="bai">Bamilek-Sprache</value>
+						<value code="bad">Banda-Sprache (Ubangi-Sprachen)</value>
+						<value code="bnt">Bantusprachen (Andere)</value>
+						<value code="bas">Basaa-Sprache</value>
 						<value code="bak">Baschkirisch</value>
 						<value code="baq">Baskisch</value>
-						<value code="btk">Batak (Indonesien)</value>
+						<value code="btk">Batak-Sprache</value>
 						<value code="bis">Beach-la-mar</value>
 						<value code="bej">Bedauye</value>
 						<value code="bel">Belarussisch</value>
 						<value code="bal">Belutschisch</value>
-						<value code="bel">Belorussisch</value>
-						<value code="bem">Bemba</value>
-						<value code="ben">Bengalisch</value>
-						<value code="ber">Berber-Sprachen</value>
+						<value code="bem">Bemba-Sprache</value>
+						<value code="ben">Bengali</value>
+						<value code="ber">Berbersprachen (Andere)</value>
 						<value code="bho">Bhojpuri</value>
-						<value code="bih">Bihari-Sprachen</value>
-						<value code="bik">Bikol</value>
-						<value code="byn">Bilin</value>
+						<value code="bih">Bihari (Andere)</value>
+						<value code="bik">Bikol-Sprache</value>
+						<value code="byn">Bilin-Sprache</value>
 						<value code="bur">Birmanisch</value>
-						<value code="bla">Blackfoot</value>
+						<value code="bla">Blackfoot-Sprache</value>
 						<value code="zbl">Bliss-Symbol</value>
 						<value code="nob">Bokmal</value>
 						<value code="bos">Bosnisch</value>
-						<value code="bra">Braj</value>
+						<value code="bra">Braj-Bhakha</value>
 						<value code="bre">Bretonisch</value>
-						<value code="bug">Bugi</value>
+						<value code="bug">Bugi-Sprache</value>
 						<value code="bul">Bulgarisch</value>
-						<value code="bua">Buriat</value>
-						<value code="bur">Burmesisch</value>
+						<value code="bua">Burjatisch</value>
 						<value code="cad">Caddo-Sprachen</value>
 						<value code="ceb">Cebuano</value>
 						<value code="cmc">Cham-Sprachen</value>
-						<value code="cha">Chamorro</value>
-						<value code="chr">Cherokee</value>
-						<value code="chy">Cheyenne</value>
+						<value code="cha">Chamorro-Sprache</value>
+						<value code="chr">Cherokee-Sprache</value>
+						<value code="chy">Cheyenne-Sprache</value>
 						<value code="chb">Chibcha-Sprachen</value>
 						<value code="chi">Chinesisch</value>
-						<value code="chn">Chinook Wawa</value>
-						<value code="chp">Chipewyan</value>
-						<value code="tog">ChiTonga</value>
-						<value code="cho">Choctaw</value>
-						<value code="cre">Cree</value>
-						<value code="day">Dajakisch</value>
-						<value code="dak">Dakota</value>
-						<value code="aar">Danakil</value>
+						<value code="chn">Chinook-Jargon</value>
+						<value code="chp">Chipewyan-Sprache</value>
+						<value code="cho">Choctaw-Sprache</value>
+						<value code="cre">Cree-Sprache</value>
 						<value code="dan">Dänisch</value>
+						<value code="day">Dajakisch</value>
+						<value code="dak">Dakota-Sprache</value>
+						<value code="aar">Danakil-Sprache</value>
 						<value code="dar">Darginisch</value>
-						<value code="del">Delaware</value>
+						<value code="del">Delaware-Sprache</value>
 						<value code="ger">Deutsch</value>
-						<value code="din">Dinka</value>
-						<value code="div">Divehi</value>
+						<value code="din">Dinka-Sprache</value>
 						<value code="doi">Dogri</value>
-						<value code="dgr">Dogrib</value>
-						<value code="dra">Drawidische Sprachen</value>
+						<value code="dgr">Dogrib-Sprache</value>
+						<value code="dra">Drawidische Sprachen (Andere)</value>
 						<value code="dua">Duala-Sprachen</value>
-						<value code="dyu">Dyula</value>
+						<value code="dyu">Dyula-Sprache</value>
 						<value code="dzo">Dzongkha</value>
-						<value code="bin">Edo</value>
+						<value code="bin">Edo-Sprache</value>
 						<value code="efi">Efik</value>
 						<value code="mis">Einzelne andere Sprachen</value>
 						<value code="eka">Ekajuk</value>
@@ -429,112 +421,106 @@
 						<value code="myv">Erza-Mordwinisch</value>
 						<value code="epo">Esperanto</value>
 						<value code="est">Estnisch</value>
-						<value code="ewe">Ewe</value>
+						<value code="ewe">Ewe-Sprache</value>
 						<value code="ewo">Ewondo</value>
 						<value code="fao">Färöisch</value>
-						<value code="fat">Fante</value>
-						<value code="fij">Fidschi</value>
+						<value code="fat">Fante-Sprache</value>
+						<value code="fij">Fidschi-Sprache</value>
 						<value code="fin">Finnisch</value>
-						<value code="fiu">Finnougrische Sprachen</value>
-						<value code="fon">Fon</value>
+						<value code="fiu">Finnougrische Sprachen (Andere)</value>
+						<value code="fon">Fon-Sprache</value>
 						<value code="fre">Französisch</value>
 						<value code="fry">Friesisch</value>
 						<value code="fur">Friulisch</value>
-						<value code="ful">Fulani</value>
-						<value code="gla">Gälisch</value>
+						<value code="ful">Ful</value>
+						<value code="gla">Gälisch-Schottisch</value>
 						<value code="glg">Galicisch</value>
-						<value code="orm">Galla</value>
-						<value code="lug">Ganda</value>
-						<value code="gaa">Ga</value>
-						<value code="gay">Gayo</value>
-						<value code="gba">Gbaya</value>
-						<value code="gem">Germanische Sprachen</value>
-						<value code="geo">Georgisch (= Grusinisch)</value>
+						<value code="lug">Ganda-Sprache</value>
+						<value code="gaa">Ga-Sprache</value>
+						<value code="gay">Gayo-Sprache</value>
+						<value code="gba">Gbaya-Sprache</value>
+						<value code="gez">Geez</value>
+						<value code="geo">Georgisch</value>
+						<value code="gem">Germanische Sprachen (Andere)</value>
 						<value code="gil">Gilbertesisch</value>
-						<value code="gon">Gondi</value>
+						<value code="gon">Gondi-Sprache</value>
 						<value code="gor">Gorontalesisch</value>
 						<value code="got">Gotisch</value>
-						<value code="grb">Grebo</value>
+						<value code="grb">Grebo-Sprache</value>
 						<value code="grc">Griechisch, alt [bis 1453]</value>
 						<value code="gre">Griechisch, neu [nach 1453]</value>
 						<value code="kal">Grönländisch</value>
-						<value code="grn">Guarani</value>
-						<value code="guj">Gujarati</value>
-						<value code="hai">Haida</value>
-						<value code="hat">Haitianisch</value>
-						<value code="afa">Hamitosemitisch</value>
-						<value code="hau">Haussa</value>
-						<value code="haw">Hawaiiansch</value>
+						<value code="grn">Guarani-Sprache</value>
+						<value code="guj">Gujarati-Sprache</value>
+						<value code="hai">Haida-Sprache</value>
+						<value code="hat">Haitien</value>
+						<value code="afa">Hamitosemitische Sprachen (Andere)</value>
+						<value code="hau">Hausa-Sprache</value>
+						<value code="haw">Hawaiisch</value>
 						<value code="heb">Hebräisch</value>
-						<value code="her">Herero</value>
+						<value code="her">Herero-Sprache</value>
 						<value code="hit">Hethitisch</value>
-						<value code="hil">Hiligaynon</value>
-						<value code="him">Himachalisch</value>
+						<value code="hil">Hiligaynon-Sprache</value>
+						<value code="him">Himachali</value>
 						<value code="hin">Hindi</value>
 						<value code="hmo">Hiri-Motu</value>
-						<value code="hup">Hupa</value>
-						<value code="iba">Iban</value>
-						<value code="ibo">Ibo</value>
+						<value code="hup">Hupa-Sprache</value>
+						<value code="iba">Iban-Sprache</value>
+						<value code="ibo">Ibo-Sprache</value>
 						<value code="ido">Ido</value>
-						<value code="ijo">Ijo</value>
-						<value code="ilo">Ilokano</value>
+						<value code="ijo">Ijo-Sprache</value>
+						<value code="ilo">Ilokano-Sprache</value>
 						<value code="smn">Inarisaamisch</value>
-						<value code="nai">Indianersprachen, Nordamerika</value>
-						<value code="sai">Indianersprachen, Südamerika</value>
-						<value code="cai">Indianersprachen, Zentralamerika</value>
-						<value code="inc">Indo-Arisch (Indic)</value>
-						<value code="ine">Indo-Europäisch</value>
+						<value code="nai">Indianersprachen, Nordamerika (Andere)</value>
+						<value code="sai">Indianersprachen, Südamerika (Andere)</value>
+						<value code="cai">Indianersprachen, Zentralamerika (Andere)</value>
+						<value code="inc">Indoarische Sprachen (Andere)</value>
+						<value code="ine">Indogermanische Sprachen (Andere)</value>
 						<value code="inh">Inguschisch</value>
-						<value code="ind">Indonesisch</value>
-						<value code="iku">Inuktitut</value>
 						<value code="ina">Interlingua</value>
 						<value code="ile">Interlingue</value>
 						<value code="iku">Inuktitut</value>
 						<value code="ipk">Inupik</value>
-						<value code="ira">Iranische Sprachen</value>
+						<value code="ira">Iranische Sprachen (Andere)</value>
 						<value code="gle">Irisch</value>
 						<value code="iro">Irokesische Sprachen</value>
 						<value code="ice">Isländisch</value>
 						<value code="ita">Italienisch</value>
-						<value code="sah">Jakut</value>
+						<value code="sah">Jakutisch</value>
 						<value code="jpn">Japanisch</value>
-						<value code="jav">Javanesisch</value>
+						<value code="jav">Javanisch</value>
 						<value code="yid">Jiddisch</value>
-						<value code="lad">Ladino</value>
 						<value code="jrb">Jüdisch-Arabisch</value>
 						<value code="jpr">Jüdisch-Persisch</value>
 						<value code="kbd">Kabardinisch</value>
 						<value code="kab">Kabylisch</value>
-						<value code="kac">Kachin</value>
+						<value code="kac">Kachin-Sprache</value>
 						<value code="xal">Kalmükisch</value>
-						<value code="kam">Kamba</value>
+						<value code="kam">Kamba-Sprache</value>
 						<value code="khm">Kambodschanisch</value>
 						<value code="kan">Kannada</value>
-						<value code="kau">Kanuri</value>
-						<value code="kaa">Kara-Kalpak</value>
-						<value code="krc">Karachay-Balkar</value>
+						<value code="kau">Kanuri-Sprache</value>
+						<value code="kaa">Karakalpakisch</value>
+						<value code="krc">Karatschaiisch-Balkarisch</value>
 						<value code="krl">Karelisch</value>
 						<value code="kar">Karenisch</value>
 						<value code="car">Karibische Sprachen</value>
 						<value code="kaz">Kasachisch</value>
-						<value code="kas">Kaschmirisch</value>
+						<value code="kas">Kaschmiri</value>
 						<value code="csb">Kaschubisch</value>
 						<value code="cat">Katalanisch</value>
-						<value code="cau">Kaukasisch</value>
+						<value code="cau">Kaukasische Sprachen (Andere)</value>
 						<value code="kaw">Kawi</value>
 						<value code="zxx">Kein linguistischer Inhalt</value>
-						<value code="cel">Keltisch</value>
-						<value code="kha">Khasi</value>
-						<value code="khi">Khoisan-Sprachen</value>
-						<value code="mag">Khotta</value>
-						<value code="khm">Khmer</value>
-						<value code="kon">Kikong</value>
-						<value code="kik">Kikuyu</value>
-						<value code="kmb">Kimbundu</value>
+						<value code="cel">Keltische Sprache (Andere)</value>
+						<value code="kha">Khasi-Sprache</value>
+						<value code="khi">Khoisan-Sprachen (Andere)</value>
+						<value code="kik">Kikuyu-Sprache</value>
+						<value code="kmb">Kimbundu-Sprache</value>
 						<value code="chu">Kirchenslawisch</value>
 						<value code="kir">Kirgisisch</value>
 						<value code="tlh">Klingonisch</value>
-						<value code="kom">Komi</value>
+						<value code="kom">Komi-Sprache</value>
 						<value code="kon">Kongo-Sprache</value>
 						<value code="kok">Konkani</value>
 						<value code="cop">Koptisch</value>
@@ -542,239 +528,232 @@
 						<value code="cor">Kornisch</value>
 						<value code="cos">Korsisch</value>
 						<value code="kos">Kosraeanisch</value>
-						<value code="kho">Kotanesisch</value>
-						<value code="kpe">Kpelle</value>
-						<value code="crp">Kreolische Sprachen</value>
-						<value code="cpe">Kreolisch-Englisch</value>
-						<value code="cpf">Kreolisch-Französisch</value>
-						<value code="cpp">Kreolisch-Portugiesisch</value>
+						<value code="kpe">Kpelle-Sprache</value>
+						<value code="crp">Kreolische Sprachen (Andere)</value>
+						<value code="cpe">Kreolisch-Englisch (Andere)</value>
+						<value code="cpf">Kreolisch-Französisch (Andere)</value>
+						<value code="cpp">Kreolisch-Portugiesisch (Andere)</value>
 						<value code="crh">Krimtatarisch</value>
-						<value code="hrv">Kroatisch [ab 2000]</value>
-						<value code="kro">Kru-Sprachen</value>
-						<value code="kum">Kumyk</value>
-						<value code="art">Kunstsprachen</value>
+						<value code="hrv">Kroatisch</value>
+						<value code="kro">Kru-Sprachen (Andere)</value>
+						<value code="kum">Kumükisch</value>
+						<value code="art">Kunstsprache (Andere)</value>
 						<value code="kur">Kurdisch</value>
-						<value code="kru">Kurukh</value>
-						<value code="cus">Kuschitische Sprachen</value>
-						<value code="gwi">Kutchin</value>
-						<value code="kut">Kutenai</value>
-						<value code="kua">Kwanyama</value>
+						<value code="cus">Kuschitische Sprachen (Andere)</value>
+						<value code="gwi">Kutchin-Sprache</value>
+						<value code="kut">Kutenai-Sprache</value>
+						<value code="kua">Kwanyama-Sprache</value>
 						<value code="wel">Kymrisch</value>
 						<value code="lah">Lahnda</value>
-						<value code="iii">Lalo</value>
-						<value code="lam">Lamba</value>
+						<value code="iii">Lalo-Sprache</value>
+						<value code="lam">Lamba-Sprache</value>
 						<value code="lao">Laotisch</value>
-						<value code="smi">Lappisch</value>
-						<value code="lat">Lateinisch</value>
+						<value code="lat">Latein</value>
 						<value code="lez">Lesgisch</value>
 						<value code="lav">Lettisch</value>
 						<value code="lim">Limburgisch</value>
 						<value code="lin">Lingala</value>
 						<value code="lit">Litauisch</value>
 						<value code="jbo">Lojban</value>
-						<value code="lub">Luba-Katanga</value>
-						<value code="lui">Luiseno</value>
+						<value code="lub">Luba-Katanga-Sprache</value>
+						<value code="lua">Luba-Lulua-Sprache</value>
+						<value code="lui">Luiseno-Sprache</value>
 						<value code="smj">Lulesaamisch</value>
-						<value code="lua">Lulua</value>
-						<value code="lun">Lunda</value>
-						<value code="luo">Luo</value>
-						<value code="lus">Lushai</value>
+						<value code="lun">Lunda-Sprache</value>
+						<value code="luo">Luo-Sprache</value>
+						<value code="lus">Lushai-Sprache</value>
 						<value code="ltz">Luxemburgisch</value>
 						<value code="mad">Maduresisch</value>
 						<value code="mag">Magahi</value>
 						<value code="mai">Maithili</value>
 						<value code="mak">Makassarisch</value>
-						<value code="mlg">Malagasisch</value>
-						<value code="mal">Malajalam</value>
-						<value code="may">Malay</value>
+						<value code="mac">Makedonisch</value>
+						<value code="mlg">Malagassi-Sprache</value>
+						<value code="may">Malaiisch</value>
 						<value code="mal">Malayalam</value>
 						<value code="div">Maledivisch</value>
-						<value code="man">Malinke</value>
+						<value code="man">Malinke-Sprache</value>
 						<value code="mlt">Maltesisch</value>
 						<value code="mdr">Mandaresisch</value>
-						<value code="mnc">Manchu</value>
-						<value code="mni">Manipuri</value>
-						<value code="mno">Manobo-Sprachen</value>
+						<value code="mnc">Mandschurisch</value>
+						<value code="mno">Manobo-Sprache</value>
 						<value code="glv">Manx</value>
-						<value code="mao">Maori</value>
+						<value code="mao">Maori-Sprache</value>
 						<value code="mar">Marathi</value>
 						<value code="mah">Marschallesisch</value>
 						<value code="mwr">Marwari</value>
-						<value code="mas">Massai</value>
+						<value code="mas">Massai-Sprache</value>
 						<value code="myn">Maya-Sprachen</value>
 						<value code="mac">Mazedonisch</value>
-						<value code="umb">Mbundu</value>
-						<value code="mni">Meithei</value>
-						<value code="men">Mende</value>
+						<value code="umb">Mbundu-Sprache</value>
+						<value code="mni">Meithei-Sprache</value>
+						<value code="men">Mende-Sprache</value>
 						<value code="hmn">Miao-Sprachen</value>
-						<value code="mic">Micmac</value>
-						<value code="min">Minangkabauisch</value>
+						<value code="mic">Micmac-Sprache</value>
+						<value code="min">Minangkabau-Sprache</value>
 						<value code="mwl">Mirandesisch</value>
-						<value code="enm">Mittelenglisch [1100-1150]</value>
-						<value code="frm">Mittelfranzösisch [ca.1400-1600]</value>
-						<value code="gmh">Mittelhochdeutsch [ca.1050-1500]</value>
-						<value code="mga">Mittelirisch [900-1200]</value>
-						<value code="dum">Mittelniederländisch [ca.1050-1350]</value>
+						<value code="enm">Mittelenglisch</value>
+						<value code="frm">Mittelfranzösisch</value>
+						<value code="gmh">Mittelhochdeutsch</value>
+						<value code="mga">Mittelirisch</value>
+						<value code="dum">Mittelniederländisch</value>
 						<value code="pal">Mittelpersisch</value>
-						<value code="moh">Mohawk</value>
-						<value code="mdf">Mokscha</value>
+						<value code="moh">Mohawk-Sprache</value>
+						<value code="mdf">Mokscha-Sprache</value>
 						<value code="mol">Moldauisch</value>
 						<value code="mkh">Mon-Khmer-Sprachen</value>
-						<value code="lol">Mongo</value>
+						<value code="lol">Mongo-Sprache</value>
 						<value code="mon">Mongolisch</value>
 						<value code="cnr">Montenegrinisch</value>
-						<value code="mos">Mossi</value>
-						<value code="mun">Munda-Sprachen</value>
+						<value code="mos">Mossi-Sprache</value>
+						<value code="mun">Mundasprachen (Andere)</value>
 						<value code="mul">Multilingual (Polyglott)</value>
 						<value code="mus">Muskogisch</value>
 						<value code="nah">Nahuatl</value>
 						<value code="nau">Nauruanisch</value>
-						<value code="nav">Navajo</value>
-						<value code="nde">Ndebele (Simbabwe)</value>
-						<value code="nbl">Ndebele (Transvaal)</value>
+						<value code="nav">Navajo-Sprache</value>
+						<value code="nde">Ndebele-Sprache (Simbabwe)</value>
+						<value code="nbl">Ndebele-Sprache (Transvaal)</value>
 						<value code="ndo">Ndonga</value>
-						<value code="nap">Neapel / Mundart</value>
-						<value code="nep">Nepalisch</value>
-						<value code="gre">Neugriechisch [ab 1453]</value>
+						<value code="nap">Neapolitanisch</value>
+						<value code="nep">Nepali</value>
+						<value code="gre">Neugriechisch</value>
 						<value code="tpi">Neumelanesisch</value>
 						<value code="syr">Neuostaramäisch</value>
-						<value code="new">Newarisch</value>
-						<value code="nia">Nias</value>
+						<value code="new">Newari</value>
+						<value code="nia">Nias-Sprache</value>
 						<value code="und">Nicht zu entscheiden</value>
 						<value code="nds">Niederdeutsch</value>
 						<value code="dut">Niederländisch</value>
 						<value code="dsb">Niedersorbisch</value>
-						<value code="nic">Nigerkordofanische Sprachen</value>
-						<value code="ssa">Nilosaharanische Sprachen</value>
-						<value code="niu">Niue</value>
+						<value code="nic">Nigerkordofanische Sprachen (Andere)</value>
+						<value code="ssa">Nilosaharanische Sprachen (Andere)</value>
+						<value code="niu">Niue-Sprache</value>
 						<value code="nqo">N'Ko</value>
-						<value code="nyn">Nkole</value>
+						<value code="nyn">Nkole-Sprache</value>
 						<value code="nog">Nogaisch</value>
 						<value code="frr">Nordfriesisch</value>
 						<value code="sme">Nordsaamisch</value>
 						<value code="nor">Norwegisch</value>
 						<value code="nub">Nubische Sprachen</value>
-						<value code="nym">Nyamwezi</value>
-						<value code="nya">Nyanja</value>
+						<value code="nym">Nyamwezi-Sprache</value>
+						<value code="nya">Nyanja-Sprache</value>
 						<value code="nno">Nynorsk</value>
-						<value code="nyo">Nyoro</value>
-						<value code="nzi">Nzima</value>
+						<value code="nyo">Nyoro-Sprache</value>
+						<value code="nzi">Nzima-Sprache</value>
 						<value code="hsb">Obersorbisch</value>
-						<value code="oji">Ojibwa</value>
-						<value code="oci">Okzitanisch [Provenzalisch nach 1500]</value>
-						<value code="kru">Oraon</value>
-						<value code="ori">Oriya</value>
+						<value code="oji">Ojibwa-Sprache</value>
+						<value code="oci">Okzitanisch</value>
+						<value code="kru">Oraon-Sprache</value>
+						<value code="ori">Oriya-Sprache</value>
 						<value code="orm">Oromo-Sprache</value>
-						<value code="osa">Osage</value>
-						<value code="ota">Osmanisch [1500-1928]</value>
+						<value code="osa">Osage-Sprache</value>
+						<value code="ota">Osmanisch</value>
 						<value code="oss">Ossetisch</value>
-						<value code="frs">Ostfriesisch</value>
-						<value code="oto">Otomangue-Sprache</value>
+						<value code="rap">Osterinsel-Sprache</value>
+						<value code="frs">Ostfriesisch (Friesisch)</value>
+						<value code="oto">Otomangue-Sprachen</value>
 						<value code="pau">Palauisch</value>
 						<value code="pli">Pali</value>
-						<value code="pam">Pampanggan</value>
-						<value code="pan">Panjabi</value>
-						<value code="pag">Pangasinanisch</value>
-						<value code="fan">Pangwe</value>
+						<value code="pam">Pampanggan-Sprache</value>
+						<value code="pan">Pandschabi-Sprache</value>
+						<value code="pag">Pangasinan-Sprache</value>
+						<value code="fan">Pangwe-Sprache</value>
 						<value code="pap">Papiamento</value>
-						<value code="paa">Papuasprachen</value>
+						<value code="paa">Papuasprachen (Andere)</value>
 						<value code="pus">Paschtu</value>
-						<value code="nso">Pedi</value>
-						<value code="pal">Pehlevi</value>
+						<value code="nso">Pedi-Sprache</value>
 						<value code="per">Persisch</value>
 						<value code="peo">Persisch alt [ca.600-400 v.Chr.]</value>
-						<value code="phi">Philippinisch-Austronesisch</value>
+						<value code="phi">Philippinisch-Austronesisch (Andere)</value>
 						<value code="phn">Phönikisch</value>
-						<value code="fil">filipino</value>
+						<value code="fil">Pilipino</value>
 						<value code="pol">Polnisch</value>
 						<value code="mul">Polyglott (Multilingual)</value>
 						<value code="pon">Ponapeanisch</value>
 						<value code="por">Portugiesisch</value>
 						<value code="pra">Prakrit</value>
-						<value code="pro">Provenzalisch, alt [bis 1500]</value>
-						<value code="pus">Puschto</value>
-						<value code="que">Quechua</value>
-						<value code="raj">Radschastanisch</value>
+						<value code="que">Quechua-Sprache</value>
 						<value code="roh">Rätoromanisch</value>
 						<value code="raj">Rajasthani</value>
 						<value code="rar">Rarotonganisch</value>
 						<value code="rap">Rapanui</value>
 						<value code="qaa-qtz">Reserviert für lokale Verwendung</value>
-						<value code="rom">Romani</value>
-						<value code="roa">Romanische Sprachen</value>
-						<value code="loz">Rotse</value>
+						<value code="rom">Romani (Sprache)</value>
+						<value code="roa">Romanische Sprachen (Andere)</value>
+						<value code="loz">Rotse-Sprache</value>
+						<value code="kin">Ruanda-Sprache</value>
 						<value code="rum">Rumänisch</value>
-						<value code="run">Rundi</value>
-						<value code="rus">Russisch</value>
-						<value code="kin">Rwanda</value>
+						<value code="run">Rundi-Sprache</value>
+						<value code="rus">Russisch</value>						
 						<value code="smi">Saamisch</value>
 						<value code="kho">Sakisch</value>
-						<value code="sal">Salish</value>
+						<value code="sal">Salish-Sprache</value>
 						<value code="sam">Samaritanisch</value>
 						<value code="smo">Samoanisch</value>
-						<value code="sad">Sandawe</value>
-						<value code="sag">Sango</value>
+						<value code="sad">Sandawe-Sprache</value>
+						<value code="sag">Sango-Sprache</value>
 						<value code="san">Sanskrit</value>
 						<value code="sat">Santali</value>
 						<value code="srd">Sardisch</value>
 						<value code="sas">Sasak</value>
-						<value code="shn">Schan</value>
-						<value code="sna">Schona</value>
+						<value code="shn">Schan-Sprache</value>
+						<value code="sna">Schona-Sprache</value>
 						<value code="sco">Schottisch</value>
 						<value code="swe">Schwedisch</value>
 						<value code="gsw">Schweizerdeutsch</value>
 						<value code="sel">Selkupisch</value>
-						<value code="sem">Semitische Sprachen</value>
-						<value code="srp">Serbisch [ab 2000]</value>
+						<value code="sem">Semitische Sprachen (Andere)</value>
+						<value code="srp">Serbisch</value>
 						<value code="scr">Serbokroatisch [bis 2000]</value>
-						<value code="srr">Serer</value>
-						<value code="sot">Sesotho</value>
-						<value code="sna">Shona</value>
-						<value code="sid">Sidamo</value>
-						<value code="snd">Sindhi</value>
+						<value code="srr">Serer-Sprache</value>
+						<value code="sid">Sidamo-Sprache</value>
+						<value code="snd">Sindhi-Sprache</value>
 						<value code="sin">Singhalesisch</value>
-						<value code="sit">Sino-Tibetisch</value>
-						<value code="sio">Sioux</value>
+						<value code="sit">Sinotibetisch Sprachen (Andere)</value>
+						<value code="sio">Sioux-Sprachen (Andere)</value>
 						<value code="scn">Sizilianisch</value>
 						<value code="sms">Skoltsaamisch</value>
-						<value code="den">Slavey (Athapaskisch)</value>
-						<value code="sla">Slawisch</value>
+						<value code="den">Slave-Sprache</value>
+						<value code="sla">Slawische Sprachen (Andere)</value>
 						<value code="slo">Slowakisch</value>
 						<value code="slv">Slowenisch</value>
 						<value code="sog">Sogdisch</value>
 						<value code="som">Somali</value>
-						<value code="son">Songhai</value>
-						<value code="snk">Soninke</value>
-						<value code="wen">Sorbisch</value>
+						<value code="son">Songhai-Sprache</value>
+						<value code="snk">Soninke-Sprache</value>
+						<value code="wen">Sorbisch (Andere)</value>
 						<value code="spa">Spanisch</value>
 						<value code="srn">Sranantongo</value>
-						<value code="zgh">Standard Moroccan Tamazight</value>
 						<value code="sma">Südsaamisch</value>
-						<value code="suk">Sukuma</value>
+						<value code="sot">Süd-Sotho-Sprache</value>
+						<value code="suk">Sukuma-Sprache</value>
 						<value code="sux">Sumerisch</value>
 						<value code="sun">Sundanesisch</value>
 						<value code="sus">Susu-Sprache</value>
 						<value code="swa">Swahili</value>
-						<value code="ssw">Swazi</value>
+						<value code="ssw">Swasi-Sprache</value>
 						<value code="syr">Syrisch</value>
 						<value code="tgk">Tadschikisch</value>
 						<value code="tgl">Tagalog</value>
-						<value code="tai">Taisprachen</value>
-						<value code="tah">Tahitianisch</value>
+						<value code="tah">Tahitisch</value>
 						<value code="tmh">Tamaschek</value>
-						<value code="tam">Tamilisch</value>
+						<value code="zgh">Tamazight</value>
+						<value code="tam">Tamil</value>
 						<value code="tat">Tatarisch</value>
-						<value code="tel">Telugu</value>
-						<value code="tem">Temne</value>
-						<value code="ter">Tereno</value>
-						<value code="tet">Tetum</value>
+						<value code="tel">Telugu-Sprache</value>
+						<value code="tem">Temne-Sprache</value>
+						<value code="ter">Tereno-Sprache</value>
+						<value code="tet">Tetun-Sprache</value>
 						<value code="tha">Thailändisch</value>
+						<value code="tai">Thaisprachen (Andere)</value>
 						<value code="tib">Tibetisch</value>
-						<value code="tig">Tigre</value>
-						<value code="tir">Tigrinja</value>
-						<value code="tiv">Tiv</value>
-						<value code="tli">Tlingit</value>
+						<value code="tig">Tigre-Sprache</value>
+						<value code="tir">Tigrinja-Sprache</value>
+						<value code="tiv">Tiv-Sprache</value>
+						<value code="tli">Tlingit-Sprache</value>
 						<value code="tkl">Tokelauanisch</value>
+						<value code="tog">Tonga (Bantusprache, Sambia)</value>
 						<value code="ton">Tongaisch</value>
 						<value code="chk">Trukesisch</value>
 						<value code="chg">Tschagataisch</value>
@@ -782,47 +761,46 @@
 						<value code="chm">Tscheremissisch</value>
 						<value code="che">Tschetschenisch</value>
 						<value code="chv">Tschuwachisch</value>
-						<value code="tsi">Tsimshian</value>
-						<value code="tsn">Tswana</value>
+						<value code="tsi">Tsimshian-Sprache</value>
+						<value code="tso">Tsonga-Sprache</value>
+						<value code="tsn">Tswana-Sprache</value>
 						<value code="tur">Türkisch</value>
-						<value code="tum">Tumbuka</value>
-						<value code="tup">Tupi</value>
+						<value code="tum">Tumbuka-Sprache</value>
+						<value code="tup">Tupi-Sprache</value>
 						<value code="tuk">Turkmenisch</value>
-						<value code="tvl">Tuvalu</value>
 						<value code="tyv">Tuwinisch</value>
-						<value code="twi">Twi</value>
+						<value code="twi">Twi-Sprache</value>
 						<value code="udm">Udmurt</value>
 						<value code="uga">Ugaritisch</value>
-						<value code="uig">Uighur</value>
+						<value code="uig">Uighurisch</value>
 						<value code="ukr">Ukrainisch</value>
 						<value code="hun">Ungarisch</value>
 						<value code="urd">Urdu</value>
 						<value code="uzb">Usbekisch</value>
-						<value code="vai">Vai</value>
-						<value code="ven">Venda</value>
+						<value code="vai">Vai-Sprache</value>
+						<value code="ven">Venda-Sprache</value>
 						<value code="vie">Vietnamesisch</value>
 						<value code="vol">Volapük</value>
 						<value code="wak">Wakash-Sprachen</value>
-						<value code="wal">Walamo</value>
+						<value code="wal">Walamo-Sprache</value>
 						<value code="wln">Wallonisch</value>
 						<value code="war">Waray</value>
-						<value code="was">Washo</value>
-						<value code="wol">Wolof</value>
+						<value code="was">Washo-Sprache</value>
+						<value code="wol">Wolof-Sprache</value>
 						<value code="vot">Wotisch</value>
-						<value code="xho">Xhosa</value>
-						<value code="tso">Xitsonga</value>
-						<value code="yao">Yao</value>
+						<value code="xho">Xhosa-Sprache</value>
+						<value code="yao">Yao-Sprache (Bantusprache)</value>
 						<value code="yap">Yapesisch</value>
-						<value code="yor">Yoruba</value>
-						<value code="ypk">Ypik</value>
-						<value code="znd">Zande Sprachen</value>
+						<value code="yor">Yoruba-Sprache</value>
+						<value code="ypk">Yupik-Sprache</value>
+						<value code="znd">Zande-Sprachen</value>
 						<value code="zap">Zapotekisch</value>
 						<value code="zza">Zazaki</value>
 						<value code="sgn">Zeichensprache</value>
 						<value code="zen">Zenaga</value>
 						<value code="zha">Zhuang</value>
-						<value code="zul">Zulu</value>
-						<value code="zun">Zuni</value>
+						<value code="zul">Zulu-Sprache</value>
+						<value code="zun">Zuni-Sprache</value>
 					</values>
 				</sub_field_configuration>
 				<sub_field_configuration repeatable="true" mandatory="false" code="b">
@@ -843,119 +821,112 @@
 				<sub_field_configuration repeatable="true" mandatory="false" code="h">
 					<description>Sprachcode der Originalsprache</description>
 					<values>
-						<value code="egy">Ägyptisch</value>
-						<value code="gez">Äthiopisch</value>
 						<value code="abk">Abchasisch</value>
-						<value code="ace">Aceh</value>
-						<value code="ach">Acholi</value>
-						<value code="ada">Adangme</value>
+						<value code="ace">Aceh-Sprache</value>
+						<value code="ach">Acholi-Sprache</value>
+						<value code="ada">Adangme-Sprache</value>
 						<value code="ady">Adygisch</value>
+						<value code="egy">Ägyptisch</value>
 						<value code="pus">Afganisch (= Paschtu)</value>
 						<value code="afh">Afrihili</value>
 						<value code="afr">Afrikaans</value>
-						<value code="ain">Ainu</value>
-						<value code="aka">Akan</value>
+						<value code="ain">Ainu-Sprache</value>
+						<value code="aka">Akan-Sprache</value>
 						<value code="akk">Akkadisch (z.B. Babylonisch)</value>
 						<value code="alb">Albanisch</value>
 						<value code="ale">Aleutisch</value>
-						<value code="alg">Algonkin-Sprachen</value>
+						<value code="alg">Algonkin-Sprachen (Andere)</value>
 						<value code="alt">Altaisch</value>
-						<value code="tut">Altaische Sprachen</value>
-						<value code="gez">Altäthiopisch</value>
-						<value code="ang">Altenglisch [ca.450-1100]</value>
-						<value code="fro">Altfranzösisch [ca.842-1400]</value>
-						<value code="goh">Althochdeutsch [bis 900]</value>
+						<value code="tut">Altaische Sprachen (Andere)</value>
+						<value code="ang">Altenglisch</value>
+						<value code="fro">Altfranzösisch</value>
+						<value code="goh">Althochdeutsch</value>
 						<value code="sga">Altirisch</value>
 						<value code="nwc">Alt-Newari</value>
 						<value code="non">Altnorwegisch</value>
-						<value code="pro">Altokzitanisch [bis 1500]</value>
-						<value code="chu">Altslawisch</value>
+						<value code="pro">Altokzitanisch</value>
+						<value code="peo">Altpersisch</value>
 						<value code="amh">Amharisch</value>
-						<value code="anp">Anga</value>
-						<value code="apa">Apachen-Sprachen</value>
+						<value code="anp">Anga-Sprache</value>
+						<value code="apa">Apachen-Sprache</value>
 						<value code="ara">Arabisch</value>
 						<value code="arg">Aragonesisch</value>
-						<value code="arc">Aramäisch [700-300 v.Chr.]</value>
-						<value code="arp">Arapaho</value>
-						<value code="arn">Arauka</value>
-						<value code="arw">Arawak</value>
+						<value code="arc">Aramäisch</value>
+						<value code="arp">Arapaho-Sprache</value>
+						<value code="arn">Arauka-Sprache</value>
+						<value code="arw">Arawak-Sprache</value>
 						<value code="arm">Armenisch</value>
 						<value code="rup">Aromunisch</value>
 						<value code="aze">Aserbeidschanisch</value>
 						<value code="asm">Assamesisch</value>
-						<value code="ast">Asturisch; Bable</value>
-						<value code="ath">Athapaskische Sprachen</value>
+						<value code="ast">Asturisch</value>
+						<value code="ath">Athapaskische Sprachen (Andere)</value>
 						<value code="aus">Australisch</value>
 						<value code="map">Austronesische Sprachen</value>
 						<value code="ave">Avestisch</value>
 						<value code="awa">Awadhi</value>
 						<value code="ava">Awarisch</value>
 						<value code="ave">Awestisch</value>
-						<value code="aym">Aymara</value>
-						<value code="nah">Aztekisch -&gt; Nahuatl</value>
+						<value code="aym">Aymara-Sprache</value>
 						<value code="ind">Bahasa Indonesia</value>
 						<value code="ban">Balinesisch</value>
-						<value code="bat">Baltische Sprachen</value>
-						<value code="bal">Baluchi</value>
-						<value code="bam">Bambara</value>
-						<value code="bai">Bamilek</value>
-						<value code="bad">Banda-Sprachen</value>
-						<value code="bnt">Bantu-Sprachen</value>
-						<value code="bas">Basaa</value>
+						<value code="bat">Baltische Sprachen (Andere)</value>
+						<value code="bam">Bambara-Sprache</value>
+						<value code="bai">Bamilek-Sprache</value>
+						<value code="bad">Banda-Sprache (Ubangi-Sprachen)</value>
+						<value code="bnt">Bantusprachen (Andere)</value>
+						<value code="bas">Basaa-Sprache</value>
 						<value code="bak">Baschkirisch</value>
 						<value code="baq">Baskisch</value>
-						<value code="btk">Batak (Indonesien)</value>
+						<value code="btk">Batak-Sprache</value>
 						<value code="bis">Beach-la-mar</value>
 						<value code="bej">Bedauye</value>
+						<value code="bel">Belarussisch</value>
 						<value code="bal">Belutschisch</value>
-						<value code="bel">Belorussisch</value>
-						<value code="bem">Bemba</value>
-						<value code="ben">Bengalisch</value>
-						<value code="ber">Berber-Sprachen</value>
+						<value code="bem">Bemba-Sprache</value>
+						<value code="ben">Bengali</value>
+						<value code="ber">Berbersprachen (Andere)</value>
 						<value code="bho">Bhojpuri</value>
-						<value code="bih">Bihari-Sprachen</value>
-						<value code="bik">Bikol</value>
-						<value code="byn">Bilin</value>
+						<value code="bih">Bihari (Andere)</value>
+						<value code="bik">Bikol-Sprache</value>
+						<value code="byn">Bilin-Sprache</value>
 						<value code="bur">Birmanisch</value>
-						<value code="bla">Blackfoot</value>
+						<value code="bla">Blackfoot-Sprache</value>
 						<value code="zbl">Bliss-Symbol</value>
 						<value code="nob">Bokmal</value>
 						<value code="bos">Bosnisch</value>
-						<value code="bra">Braj</value>
+						<value code="bra">Braj-Bhakha</value>
 						<value code="bre">Bretonisch</value>
-						<value code="bug">Bugi</value>
+						<value code="bug">Bugi-Sprache</value>
 						<value code="bul">Bulgarisch</value>
-						<value code="bua">Buriat</value>
-						<value code="bur">Burmesisch</value>
+						<value code="bua">Burjatisch</value>
 						<value code="cad">Caddo-Sprachen</value>
 						<value code="ceb">Cebuano</value>
 						<value code="cmc">Cham-Sprachen</value>
-						<value code="cha">Chamorro</value>
-						<value code="chr">Cherokee</value>
-						<value code="chy">Cheyenne</value>
+						<value code="cha">Chamorro-Sprache</value>
+						<value code="chr">Cherokee-Sprache</value>
+						<value code="chy">Cheyenne-Sprache</value>
 						<value code="chb">Chibcha-Sprachen</value>
 						<value code="chi">Chinesisch</value>
-						<value code="chn">Chinook Wawa</value>
-						<value code="chp">Chipewyan</value>
-						<value code="tog">ChiTonga</value>
-						<value code="cho">Choctaw</value>
-						<value code="cre">Cree</value>
-						<value code="day">Dajakisch</value>
-						<value code="dak">Dakota</value>
-						<value code="aar">Danakil</value>
+						<value code="chn">Chinook-Jargon</value>
+						<value code="chp">Chipewyan-Sprache</value>
+						<value code="cho">Choctaw-Sprache</value>
+						<value code="cre">Cree-Sprache</value>
 						<value code="dan">Dänisch</value>
+						<value code="day">Dajakisch</value>
+						<value code="dak">Dakota-Sprache</value>
+						<value code="aar">Danakil-Sprache</value>
 						<value code="dar">Darginisch</value>
-						<value code="del">Delaware</value>
+						<value code="del">Delaware-Sprache</value>
 						<value code="ger">Deutsch</value>
-						<value code="din">Dinka</value>
-						<value code="div">Divehi</value>
+						<value code="din">Dinka-Sprache</value>
 						<value code="doi">Dogri</value>
-						<value code="dgr">Dogrib</value>
-						<value code="dra">Drawidische Sprachen</value>
+						<value code="dgr">Dogrib-Sprache</value>
+						<value code="dra">Drawidische Sprachen (Andere)</value>
 						<value code="dua">Duala-Sprachen</value>
-						<value code="dyu">Dyula</value>
+						<value code="dyu">Dyula-Sprache</value>
 						<value code="dzo">Dzongkha</value>
-						<value code="bin">Edo</value>
+						<value code="bin">Edo-Sprache</value>
 						<value code="efi">Efik</value>
 						<value code="mis">Einzelne andere Sprachen</value>
 						<value code="eka">Ekajuk</value>
@@ -965,111 +936,106 @@
 						<value code="myv">Erza-Mordwinisch</value>
 						<value code="epo">Esperanto</value>
 						<value code="est">Estnisch</value>
-						<value code="ewe">Ewe</value>
+						<value code="ewe">Ewe-Sprache</value>
 						<value code="ewo">Ewondo</value>
 						<value code="fao">Färöisch</value>
-						<value code="fat">Fante</value>
-						<value code="fij">Fidschi</value>
+						<value code="fat">Fante-Sprache</value>
+						<value code="fij">Fidschi-Sprache</value>
 						<value code="fin">Finnisch</value>
-						<value code="fiu">Finnougrische Sprachen</value>
-						<value code="fon">Fon</value>
+						<value code="fiu">Finnougrische Sprachen (Andere)</value>
+						<value code="fon">Fon-Sprache</value>
 						<value code="fre">Französisch</value>
 						<value code="fry">Friesisch</value>
 						<value code="fur">Friulisch</value>
-						<value code="ful">Fulani</value>
-						<value code="gla">Gälisch</value>
+						<value code="ful">Ful</value>
+						<value code="gla">Gälisch-Schottisch</value>
 						<value code="glg">Galicisch</value>
-						<value code="lug">Ganda</value>
-						<value code="gaa">Ga</value>
-						<value code="gay">Gayo</value>
-						<value code="gba">Gbaya</value>
-						<value code="gem">Germanische Sprachen</value>
-						<value code="geo">Georgisch (= Grusinisch)</value>
+						<value code="lug">Ganda-Sprache</value>
+						<value code="gaa">Ga-Sprache</value>
+						<value code="gay">Gayo-Sprache</value>
+						<value code="gba">Gbaya-Sprache</value>
+						<value code="gez">Geez</value>
+						<value code="geo">Georgisch</value>
+						<value code="gem">Germanische Sprachen (Andere)</value>
 						<value code="gil">Gilbertesisch</value>
-						<value code="gon">Gondi</value>
+						<value code="gon">Gondi-Sprache</value>
 						<value code="gor">Gorontalesisch</value>
 						<value code="got">Gotisch</value>
-						<value code="grb">Grebo</value>
+						<value code="grb">Grebo-Sprache</value>
 						<value code="grc">Griechisch, alt [bis 1453]</value>
 						<value code="gre">Griechisch, neu [nach 1453]</value>
 						<value code="kal">Grönländisch</value>
-						<value code="grn">Guarani</value>
-						<value code="guj">Gujarati</value>
-						<value code="hai">Haida</value>
-						<value code="hat">Haitianisch</value>
-						<value code="afa">Hamitosemitisch</value>
+						<value code="grn">Guarani-Sprache</value>
+						<value code="guj">Gujarati-Sprache</value>
+						<value code="hai">Haida-Sprache</value>
+						<value code="hat">Haitien</value>
+						<value code="afa">Hamitosemitische Sprachen (Andere)</value>
 						<value code="hau">Hausa-Sprache</value>
-						<value code="haw">Hawaiiansch</value>
+						<value code="haw">Hawaiisch</value>
 						<value code="heb">Hebräisch</value>
-						<value code="her">Herero</value>
+						<value code="her">Herero-Sprache</value>
 						<value code="hit">Hethitisch</value>
-						<value code="hil">Hiligaynon</value>
-						<value code="him">Himachalisch</value>
+						<value code="hil">Hiligaynon-Sprache</value>
+						<value code="him">Himachali</value>
 						<value code="hin">Hindi</value>
 						<value code="hmo">Hiri-Motu</value>
-						<value code="hup">Hupa</value>
-						<value code="iba">Iban</value>
-						<value code="ibo">Ibo</value>
+						<value code="hup">Hupa-Sprache</value>
+						<value code="iba">Iban-Sprache</value>
+						<value code="ibo">Ibo-Sprache</value>
 						<value code="ido">Ido</value>
-						<value code="ijo">Ijo</value>
-						<value code="ilo">Ilokano</value>
+						<value code="ijo">Ijo-Sprache</value>
+						<value code="ilo">Ilokano-Sprache</value>
 						<value code="smn">Inarisaamisch</value>
-						<value code="nai">Indianersprachen, Nordamerika</value>
-						<value code="sai">Indianersprachen, Südamerika</value>
-						<value code="cai">Indianersprachen, Zentralamerika</value>
-						<value code="inc">Indo-Arisch (Indic)</value>
-						<value code="ine">Indo-Europäisch</value>
+						<value code="nai">Indianersprachen, Nordamerika (Andere)</value>
+						<value code="sai">Indianersprachen, Südamerika (Andere)</value>
+						<value code="cai">Indianersprachen, Zentralamerika (Andere)</value>
+						<value code="inc">Indoarische Sprachen (Andere)</value>
+						<value code="ine">Indogermanische Sprachen (Andere)</value>
 						<value code="inh">Inguschisch</value>
-						<value code="ind">Indonesisch</value>
-						<value code="iku">Inuktitut</value>
 						<value code="ina">Interlingua</value>
 						<value code="ile">Interlingue</value>
 						<value code="iku">Inuktitut</value>
 						<value code="ipk">Inupik</value>
-						<value code="ira">Iranische Sprachen</value>
+						<value code="ira">Iranische Sprachen (Andere)</value>
 						<value code="gle">Irisch</value>
 						<value code="iro">Irokesische Sprachen</value>
 						<value code="ice">Isländisch</value>
 						<value code="ita">Italienisch</value>
-						<value code="sah">Jakut</value>
+						<value code="sah">Jakutisch</value>
 						<value code="jpn">Japanisch</value>
-						<value code="jav">Javanesisch</value>
+						<value code="jav">Javanisch</value>
 						<value code="yid">Jiddisch</value>
-						<value code="lad">Ladino</value>
 						<value code="jrb">Jüdisch-Arabisch</value>
 						<value code="jpr">Jüdisch-Persisch</value>
 						<value code="kbd">Kabardinisch</value>
 						<value code="kab">Kabylisch</value>
-						<value code="kac">Kachin</value>
+						<value code="kac">Kachin-Sprache</value>
 						<value code="xal">Kalmükisch</value>
-						<value code="kam">Kamba</value>
+						<value code="kam">Kamba-Sprache</value>
 						<value code="khm">Kambodschanisch</value>
 						<value code="kan">Kannada</value>
-						<value code="kau">Kanuri</value>
-						<value code="kaa">Kara-Kalpak</value>
-						<value code="krc">Karachay-Balkar</value>
+						<value code="kau">Kanuri-Sprache</value>
+						<value code="kaa">Karakalpakisch</value>
+						<value code="krc">Karatschaiisch-Balkarisch</value>
 						<value code="krl">Karelisch</value>
 						<value code="kar">Karenisch</value>
 						<value code="car">Karibische Sprachen</value>
 						<value code="kaz">Kasachisch</value>
-						<value code="kas">Kaschmirisch</value>
+						<value code="kas">Kaschmiri</value>
 						<value code="csb">Kaschubisch</value>
 						<value code="cat">Katalanisch</value>
-						<value code="cau">Kaukasisch</value>
+						<value code="cau">Kaukasische Sprachen (Andere)</value>
 						<value code="kaw">Kawi</value>
 						<value code="zxx">Kein linguistischer Inhalt</value>
-						<value code="cel">Keltisch</value>
-						<value code="kha">Khasi</value>
-						<value code="khi">Khoisan-Sprachen</value>
-						<value code="mag">Khotta</value>
-						<value code="khm">Khmer</value>
-						<value code="kon">Kikong</value>
-						<value code="kik">Kikuyu</value>
-						<value code="kmb">Kimbundu</value>
+						<value code="cel">Keltische Sprache (Andere)</value>
+						<value code="kha">Khasi-Sprache</value>
+						<value code="khi">Khoisan-Sprachen (Andere)</value>
+						<value code="kik">Kikuyu-Sprache</value>
+						<value code="kmb">Kimbundu-Sprache</value>
 						<value code="chu">Kirchenslawisch</value>
 						<value code="kir">Kirgisisch</value>
 						<value code="tlh">Klingonisch</value>
-						<value code="kom">Komi</value>
+						<value code="kom">Komi-Sprache</value>
 						<value code="kon">Kongo-Sprache</value>
 						<value code="kok">Konkani</value>
 						<value code="cop">Koptisch</value>
@@ -1077,239 +1043,232 @@
 						<value code="cor">Kornisch</value>
 						<value code="cos">Korsisch</value>
 						<value code="kos">Kosraeanisch</value>
-						<value code="kho">Kotanesisch</value>
-						<value code="kpe">Kpelle</value>
-						<value code="crp">Kreolische Sprachen</value>
-						<value code="cpe">Kreolisch-Englisch</value>
-						<value code="cpf">Kreolisch-Französisch</value>
-						<value code="cpp">Kreolisch-Portugiesisch</value>
+						<value code="kpe">Kpelle-Sprache</value>
+						<value code="crp">Kreolische Sprachen (Andere)</value>
+						<value code="cpe">Kreolisch-Englisch (Andere)</value>
+						<value code="cpf">Kreolisch-Französisch (Andere)</value>
+						<value code="cpp">Kreolisch-Portugiesisch (Andere)</value>
 						<value code="crh">Krimtatarisch</value>
-						<value code="hrv">Kroatisch [ab 2000]</value>
-						<value code="kro">Kru-Sprachen</value>
-						<value code="kum">Kumyk</value>
-						<value code="art">Kunstsprachen</value>
+						<value code="hrv">Kroatisch</value>
+						<value code="kro">Kru-Sprachen (Andere)</value>
+						<value code="kum">Kumükisch</value>
+						<value code="art">Kunstsprache (Andere)</value>
 						<value code="kur">Kurdisch</value>
-						<value code="kru">Kurukh</value>
-						<value code="cus">Kuschitische Sprachen</value>
-						<value code="gwi">Kutchin</value>
-						<value code="kut">Kutenai</value>
-						<value code="kua">Kwanyama</value>
+						<value code="cus">Kuschitische Sprachen (Andere)</value>
+						<value code="gwi">Kutchin-Sprache</value>
+						<value code="kut">Kutenai-Sprache</value>
+						<value code="kua">Kwanyama-Sprache</value>
 						<value code="wel">Kymrisch</value>
 						<value code="lah">Lahnda</value>
-						<value code="iii">Lalo</value>
-						<value code="lam">Lamba</value>
+						<value code="iii">Lalo-Sprache</value>
+						<value code="lam">Lamba-Sprache</value>
 						<value code="lao">Laotisch</value>
-						<value code="smi">Lappisch</value>
-						<value code="lat">Lateinisch</value>
+						<value code="lat">Latein</value>
 						<value code="lez">Lesgisch</value>
 						<value code="lav">Lettisch</value>
 						<value code="lim">Limburgisch</value>
 						<value code="lin">Lingala</value>
 						<value code="lit">Litauisch</value>
 						<value code="jbo">Lojban</value>
-						<value code="lub">Luba-Katanga</value>
-						<value code="lui">Luiseno</value>
+						<value code="lub">Luba-Katanga-Sprache</value>
+						<value code="lua">Luba-Lulua-Sprache</value>
+						<value code="lui">Luiseno-Sprache</value>
 						<value code="smj">Lulesaamisch</value>
-						<value code="lua">Lulua</value>
-						<value code="lun">Lunda</value>
-						<value code="luo">Luo</value>
-						<value code="lus">Lushai</value>
+						<value code="lun">Lunda-Sprache</value>
+						<value code="luo">Luo-Sprache</value>
+						<value code="lus">Lushai-Sprache</value>
 						<value code="ltz">Luxemburgisch</value>
 						<value code="mad">Maduresisch</value>
 						<value code="mag">Magahi</value>
 						<value code="mai">Maithili</value>
 						<value code="mak">Makassarisch</value>
 						<value code="mac">Makedonisch</value>
-						<value code="mlg">Malagasisch</value>
-						<value code="mal">Malajalam</value>
-						<value code="may">Malay</value>
+						<value code="mlg">Malagassi-Sprache</value>
+						<value code="may">Malaiisch</value>
 						<value code="mal">Malayalam</value>
 						<value code="div">Maledivisch</value>
-						<value code="man">Malinke</value>
+						<value code="man">Malinke-Sprache</value>
 						<value code="mlt">Maltesisch</value>
 						<value code="mdr">Mandaresisch</value>
-						<value code="mnc">Manchu</value>
-						<value code="mni">Manipuri</value>
-						<value code="mno">Manobo-Sprachen</value>
+						<value code="mnc">Mandschurisch</value>
+						<value code="mno">Manobo-Sprache</value>
 						<value code="glv">Manx</value>
-						<value code="mao">Maori</value>
+						<value code="mao">Maori-Sprache</value>
 						<value code="mar">Marathi</value>
 						<value code="mah">Marschallesisch</value>
 						<value code="mwr">Marwari</value>
-						<value code="mas">Massai</value>
+						<value code="mas">Massai-Sprache</value>
 						<value code="myn">Maya-Sprachen</value>
 						<value code="mac">Mazedonisch</value>
-						<value code="umb">Mbundu</value>
-						<value code="mni">Meithei</value>
-						<value code="men">Mende</value>
+						<value code="umb">Mbundu-Sprache</value>
+						<value code="mni">Meithei-Sprache</value>
+						<value code="men">Mende-Sprache</value>
 						<value code="hmn">Miao-Sprachen</value>
-						<value code="mic">Micmac</value>
-						<value code="min">Minangkabauisch</value>
+						<value code="mic">Micmac-Sprache</value>
+						<value code="min">Minangkabau-Sprache</value>
 						<value code="mwl">Mirandesisch</value>
-						<value code="enm">Mittelenglisch [1100-1150]</value>
-						<value code="frm">Mittelfranzösisch [ca.1400-1600]</value>
-						<value code="gmh">Mittelhochdeutsch [ca.1050-1500]</value>
-						<value code="mga">Mittelirisch [900-1200]</value>
-						<value code="dum">Mittelniederländisch [ca.1050-1350]</value>
+						<value code="enm">Mittelenglisch</value>
+						<value code="frm">Mittelfranzösisch</value>
+						<value code="gmh">Mittelhochdeutsch</value>
+						<value code="mga">Mittelirisch</value>
+						<value code="dum">Mittelniederländisch</value>
 						<value code="pal">Mittelpersisch</value>
-						<value code="moh">Mohawk</value>
-						<value code="mdf">Mokscha</value>
+						<value code="moh">Mohawk-Sprache</value>
+						<value code="mdf">Mokscha-Sprache</value>
 						<value code="mol">Moldauisch</value>
 						<value code="mkh">Mon-Khmer-Sprachen</value>
-						<value code="lol">Mongo</value>
+						<value code="lol">Mongo-Sprache</value>
 						<value code="mon">Mongolisch</value>
 						<value code="cnr">Montenegrinisch</value>
-						<value code="mos">Mossi</value>
-						<value code="mun">Munda-Sprachen</value>
+						<value code="mos">Mossi-Sprache</value>
+						<value code="mun">Mundasprachen (Andere)</value>
 						<value code="mul">Multilingual (Polyglott)</value>
 						<value code="mus">Muskogisch</value>
 						<value code="nah">Nahuatl</value>
 						<value code="nau">Nauruanisch</value>
-						<value code="nav">Navajo</value>
-						<value code="nde">Ndebele (Simbabwe)</value>
-						<value code="nbl">Ndebele (Transvaal)</value>
+						<value code="nav">Navajo-Sprache</value>
+						<value code="nde">Ndebele-Sprache (Simbabwe)</value>
+						<value code="nbl">Ndebele-Sprache (Transvaal)</value>
 						<value code="ndo">Ndonga</value>
-						<value code="nap">Neapel / Mundart</value>
-						<value code="nep">Nepalisch</value>
-						<value code="gre">Neugriechisch [ab 1453]</value>
+						<value code="nap">Neapolitanisch</value>
+						<value code="nep">Nepali</value>
+						<value code="gre">Neugriechisch</value>
 						<value code="tpi">Neumelanesisch</value>
 						<value code="syr">Neuostaramäisch</value>
-						<value code="new">Newarisch</value>
-						<value code="nia">Nias</value>
+						<value code="new">Newari</value>
+						<value code="nia">Nias-Sprache</value>
 						<value code="und">Nicht zu entscheiden</value>
 						<value code="nds">Niederdeutsch</value>
 						<value code="dut">Niederländisch</value>
 						<value code="dsb">Niedersorbisch</value>
-						<value code="nic">Nigerkordofanische Sprachen</value>
-						<value code="ssa">Nilosaharanische Sprachen</value>
-						<value code="niu">Niue</value>
+						<value code="nic">Nigerkordofanische Sprachen (Andere)</value>
+						<value code="ssa">Nilosaharanische Sprachen (Andere)</value>
+						<value code="niu">Niue-Sprache</value>
 						<value code="nqo">N'Ko</value>
-						<value code="nyn">Nkole</value>
+						<value code="nyn">Nkole-Sprache</value>
 						<value code="nog">Nogaisch</value>
 						<value code="frr">Nordfriesisch</value>
 						<value code="sme">Nordsaamisch</value>
 						<value code="nor">Norwegisch</value>
 						<value code="nub">Nubische Sprachen</value>
-						<value code="nym">Nyamwezi</value>
-						<value code="nya">Nyanja</value>
+						<value code="nym">Nyamwezi-Sprache</value>
+						<value code="nya">Nyanja-Sprache</value>
 						<value code="nno">Nynorsk</value>
-						<value code="nyo">Nyoro</value>
-						<value code="nzi">Nzima</value>
+						<value code="nyo">Nyoro-Sprache</value>
+						<value code="nzi">Nzima-Sprache</value>
 						<value code="hsb">Obersorbisch</value>
-						<value code="oji">Ojibwa</value>
-						<value code="oci">Okzitanisch [Provenzalisch nach 1500]</value>
-						<value code="kru">Oraon</value>
-						<value code="ori">Oriya</value>
-						<value code="osa">Osage</value>
-						<value code="ota">Osmanisch [1500-1928]</value>
+						<value code="oji">Ojibwa-Sprache</value>
+						<value code="oci">Okzitanisch</value>
+						<value code="kru">Oraon-Sprache</value>
+						<value code="ori">Oriya-Sprache</value>
+						<value code="orm">Oromo-Sprache</value>
+						<value code="osa">Osage-Sprache</value>
+						<value code="ota">Osmanisch</value>
 						<value code="oss">Ossetisch</value>
-						<value code="frs">Ostfriesisch</value>
-						<value code="oto">Otomangue-Sprache</value>
+						<value code="rap">Osterinsel-Sprache</value>
+						<value code="frs">Ostfriesisch (Friesisch)</value>
+						<value code="oto">Otomangue-Sprachen</value>
 						<value code="pau">Palauisch</value>
 						<value code="pli">Pali</value>
-						<value code="pam">Pampanggan</value>
-						<value code="pan">Panjabi</value>
-						<value code="pag">Pangasinanisch</value>
-						<value code="fan">Pangwe</value>
+						<value code="pam">Pampanggan-Sprache</value>
+						<value code="pan">Pandschabi-Sprache</value>
+						<value code="pag">Pangasinan-Sprache</value>
+						<value code="fan">Pangwe-Sprache</value>
 						<value code="pap">Papiamento</value>
-						<value code="paa">Papuasprachen</value>
+						<value code="paa">Papuasprachen (Andere)</value>
 						<value code="pus">Paschtu</value>
-						<value code="nso">Pedi</value>
-						<value code="pal">Pehlevi</value>
+						<value code="nso">Pedi-Sprache</value>
 						<value code="per">Persisch</value>
 						<value code="peo">Persisch alt [ca.600-400 v.Chr.]</value>
-						<value code="phi">Philippinisch-Austronesisch</value>
+						<value code="phi">Philippinisch-Austronesisch (Andere)</value>
 						<value code="phn">Phönikisch</value>
-						<value code="fil">filipino</value>
+						<value code="fil">Pilipino</value>
 						<value code="pol">Polnisch</value>
 						<value code="mul">Polyglott (Multilingual)</value>
 						<value code="pon">Ponapeanisch</value>
 						<value code="por">Portugiesisch</value>
 						<value code="pra">Prakrit</value>
-						<value code="pro">Provenzalisch, alt [bis 1500]</value>
-						<value code="pus">Puschto</value>
-						<value code="que">Quechua</value>
-						<value code="raj">Radschastanisch</value>
+						<value code="que">Quechua-Sprache</value>
 						<value code="roh">Rätoromanisch</value>
 						<value code="raj">Rajasthani</value>
 						<value code="rar">Rarotonganisch</value>
 						<value code="rap">Rapanui</value>
 						<value code="qaa-qtz">Reserviert für lokale Verwendung</value>
-						<value code="rom">Romani</value>
-						<value code="roa">Romanische Sprachen</value>
-						<value code="loz">Rotse</value>
+						<value code="rom">Romani (Sprache)</value>
+						<value code="roa">Romanische Sprachen (Andere)</value>
+						<value code="loz">Rotse-Sprache</value>
 						<value code="kin">Ruanda-Sprache</value>
 						<value code="rum">Rumänisch</value>
-						<value code="run">Rundi</value>
+						<value code="run">Rundi-Sprache</value>
 						<value code="rus">Russisch</value>						
 						<value code="smi">Saamisch</value>
 						<value code="kho">Sakisch</value>
-						<value code="sal">Salish</value>
+						<value code="sal">Salish-Sprache</value>
 						<value code="sam">Samaritanisch</value>
 						<value code="smo">Samoanisch</value>
-						<value code="sad">Sandawe</value>
-						<value code="sag">Sango</value>
+						<value code="sad">Sandawe-Sprache</value>
+						<value code="sag">Sango-Sprache</value>
 						<value code="san">Sanskrit</value>
 						<value code="sat">Santali</value>
 						<value code="srd">Sardisch</value>
 						<value code="sas">Sasak</value>
-						<value code="shn">Schan</value>
-						<value code="sna">Schona</value>
+						<value code="shn">Schan-Sprache</value>
+						<value code="sna">Schona-Sprache</value>
 						<value code="sco">Schottisch</value>
 						<value code="swe">Schwedisch</value>
 						<value code="gsw">Schweizerdeutsch</value>
 						<value code="sel">Selkupisch</value>
-						<value code="sem">Semitische Sprachen</value>
-						<value code="srp">Serbisch [ab 2000]</value>
+						<value code="sem">Semitische Sprachen (Andere)</value>
+						<value code="srp">Serbisch</value>
 						<value code="scr">Serbokroatisch [bis 2000]</value>
-						<value code="srr">Serer</value>
-						<value code="sot">Sesotho</value>
-						<value code="sna">Shona</value>
-						<value code="sid">Sidamo</value>
-						<value code="snd">Sindhi</value>
+						<value code="srr">Serer-Sprache</value>
+						<value code="sid">Sidamo-Sprache</value>
+						<value code="snd">Sindhi-Sprache</value>
 						<value code="sin">Singhalesisch</value>
-						<value code="sit">Sino-Tibetisch</value>
-						<value code="sio">Sioux</value>
+						<value code="sit">Sinotibetisch Sprachen (Andere)</value>
+						<value code="sio">Sioux-Sprachen (Andere)</value>
 						<value code="scn">Sizilianisch</value>
 						<value code="sms">Skoltsaamisch</value>
-						<value code="den">Slavey (Athapaskisch)</value>
-						<value code="sla">Slawisch</value>
+						<value code="den">Slave-Sprache</value>
+						<value code="sla">Slawische Sprachen (Andere)</value>
 						<value code="slo">Slowakisch</value>
 						<value code="slv">Slowenisch</value>
 						<value code="sog">Sogdisch</value>
 						<value code="som">Somali</value>
-						<value code="son">Songhai</value>
-						<value code="snk">Soninke</value>
-						<value code="wen">Sorbisch</value>
+						<value code="son">Songhai-Sprache</value>
+						<value code="snk">Soninke-Sprache</value>
+						<value code="wen">Sorbisch (Andere)</value>
 						<value code="spa">Spanisch</value>
 						<value code="srn">Sranantongo</value>
-						<value code="zgh">Standard Moroccan Tamazight</value>
 						<value code="sma">Südsaamisch</value>
-						<value code="suk">Sukuma</value>
+						<value code="sot">Süd-Sotho-Sprache</value>
+						<value code="suk">Sukuma-Sprache</value>
 						<value code="sux">Sumerisch</value>
 						<value code="sun">Sundanesisch</value>
-						<value code="sus">Susu</value>
+						<value code="sus">Susu-Sprache</value>
 						<value code="swa">Swahili</value>
-						<value code="ssw">Swazi</value>
+						<value code="ssw">Swasi-Sprache</value>
 						<value code="syr">Syrisch</value>
 						<value code="tgk">Tadschikisch</value>
 						<value code="tgl">Tagalog</value>
-						<value code="tai">Taisprachen</value>
-						<value code="tah">Tahitianisch</value>
+						<value code="tah">Tahitisch</value>
 						<value code="tmh">Tamaschek</value>
-						<value code="tam">Tamilisch</value>
+						<value code="zgh">Tamazight</value>
+						<value code="tam">Tamil</value>
 						<value code="tat">Tatarisch</value>
-						<value code="tel">Telugu</value>
-						<value code="tem">Temne</value>
-						<value code="ter">Tereno</value>
-						<value code="tet">Tetum</value>
+						<value code="tel">Telugu-Sprache</value>
+						<value code="tem">Temne-Sprache</value>
+						<value code="ter">Tereno-Sprache</value>
+						<value code="tet">Tetun-Sprache</value>
 						<value code="tha">Thailändisch</value>
+						<value code="tai">Thaisprachen (Andere)</value>
 						<value code="tib">Tibetisch</value>
-						<value code="tig">Tigre</value>
-						<value code="tir">Tigrinja</value>
-						<value code="tiv">Tiv</value>
-						<value code="tli">Tlingit</value>
+						<value code="tig">Tigre-Sprache</value>
+						<value code="tir">Tigrinja-Sprache</value>
+						<value code="tiv">Tiv-Sprache</value>
+						<value code="tli">Tlingit-Sprache</value>
 						<value code="tkl">Tokelauanisch</value>
+						<value code="tog">Tonga (Bantusprache, Sambia)</value>
 						<value code="ton">Tongaisch</value>
 						<value code="chk">Trukesisch</value>
 						<value code="chg">Tschagataisch</value>
@@ -1317,48 +1276,46 @@
 						<value code="chm">Tscheremissisch</value>
 						<value code="che">Tschetschenisch</value>
 						<value code="chv">Tschuwachisch</value>
-						<value code="tsi">Tsimshian</value>
-						<value code="tsn">Tswana</value>
+						<value code="tsi">Tsimshian-Sprache</value>
+						<value code="tso">Tsonga-Sprache</value>
+						<value code="tsn">Tswana-Sprache</value>
 						<value code="tur">Türkisch</value>
-						<value code="tum">Tumbuka</value>
-						<value code="tup">Tupi</value>
+						<value code="tum">Tumbuka-Sprache</value>
+						<value code="tup">Tupi-Sprache</value>
 						<value code="tuk">Turkmenisch</value>
-						<value code="tvl">Tuvalu</value>
 						<value code="tyv">Tuwinisch</value>
-						<value code="twi">Twi</value>
+						<value code="twi">Twi-Sprache</value>
 						<value code="udm">Udmurt</value>
 						<value code="uga">Ugaritisch</value>
-						<value code="uig">Uighur</value>
+						<value code="uig">Uighurisch</value>
 						<value code="ukr">Ukrainisch</value>
 						<value code="hun">Ungarisch</value>
 						<value code="urd">Urdu</value>
 						<value code="uzb">Usbekisch</value>
-						<value code="vai">Vai</value>
-						<value code="ven">Venda</value>
+						<value code="vai">Vai-Sprache</value>
+						<value code="ven">Venda-Sprache</value>
 						<value code="vie">Vietnamesisch</value>
 						<value code="vol">Volapük</value>
 						<value code="wak">Wakash-Sprachen</value>
-						<value code="wal">Walamo</value>
+						<value code="wal">Walamo-Sprache</value>
 						<value code="wln">Wallonisch</value>
 						<value code="war">Waray</value>
-						<value code="was">Washo</value>
-						<value code="bel">Weißrussisch</value>
-						<value code="wol">Wolof</value>
+						<value code="was">Washo-Sprache</value>
+						<value code="wol">Wolof-Sprache</value>
 						<value code="vot">Wotisch</value>
-						<value code="xho">Xhosa</value>
-						<value code="tso">Xitsonga</value>
-						<value code="yao">Yao</value>
+						<value code="xho">Xhosa-Sprache</value>
+						<value code="yao">Yao-Sprache (Bantusprache)</value>
 						<value code="yap">Yapesisch</value>
-						<value code="yor">Yoruba</value>
-						<value code="ypk">Ypik</value>
-						<value code="znd">Zande Sprachen</value>
+						<value code="yor">Yoruba-Sprache</value>
+						<value code="ypk">Yupik-Sprache</value>
+						<value code="znd">Zande-Sprachen</value>
 						<value code="zap">Zapotekisch</value>
 						<value code="zza">Zazaki</value>
 						<value code="sgn">Zeichensprache</value>
 						<value code="zen">Zenaga</value>
 						<value code="zha">Zhuang</value>
-						<value code="zul">Zulu</value>
-						<value code="zun">Zuni</value>
+						<value code="zul">Zulu-Sprache</value>
+						<value code="zun">Zuni-Sprache</value>
 					</values>
 				</sub_field_configuration>
 				<sub_field_configuration repeatable="true" mandatory="false" code="i">
@@ -1424,6 +1381,7 @@
 				<sub_field_configuration repeatable="true" mandatory="false" code="c">
 					<description>ISO-Ländercode</description>
 					<values>
+						<value code="XA-CH-AG">Aargau</value>
 						<value code="XC-EG">Ägypten</value>
 						<value code="XC-GQ">Äquatorialguinea</value>
 						<value code="XC-ET">Äthiopien</value>
@@ -1437,46 +1395,58 @@
 						<value code="XC-AO">Angola</value>
 						<value code="XD-AI">Anguilla</value>
 						<value code="XI-AQ">Antarktika</value>
-						<value code="XD-AG">Antigua u.Barbuda</value>
+						<value code="XD-AG">Antigua und Barbuda</value>
+						<value code="XA-CH-AR">Appenzell Ausserrhoden</value>
+						<value code="XA-CH-AI">Appenzell Innerrhoden</value>
 						<value code="XD-AR">Argentinien</value>
 						<value code="XB-AM">Armenien</value>
 						<value code="XD-AW">Aruba</value>
 						<value code="XB-AZ">Aserbaidschan</value>
 						<value code="XE-AU">Australien</value>
+						<value code="XA-DE-BW">Baden-Württemberg</value>
 						<value code="XD-BS">Bahamas</value>
 						<value code="XB-BH">Bahrain</value>
 						<value code="XB-BD">Bangladesch</value>
 						<value code="XD-BB">Barbados</value>
+						<value code="XA-CH-BS">Basel</value>
+						<value code="XA-CH-BL">Basel-Landschaft</value>
+						<value code="XA-DE-BY">Bayern</value>
+						<value code="XA-BY">Belarus</value>
 						<value code="XA-BE">Belgien</value>
 						<value code="XD-BZ">Belize</value>
 						<value code="XC-BJ">Benin</value>
+						<value code="XA-DE-BE">Berlin</value>
 						<value code="XD-BM">Bermudainseln</value>
 						<value code="XB-BT">Bhutan</value>
-						<value code="XB-MM">Birma [jetzt Myanmar]</value>
+						<value code="XB-MM">Birma</value>
 						<value code="XD-BO">Bolivien</value>
-						<value code="XD-BQ">Bonaire, Sint Eustatius, Saba &lt;Insel&gt;</value>
-						<value code="XA-BA">Bosnien-Herzegowina [ab 1992]</value>
+						<value code="XD-BQ">Bonaire, Sint Eustatius, Saba (Insel)</value>
+						<value code="XA-BA">Bosnien-Herzegowina</value>
 						<value code="XC-BW">Botswana</value>
 						<value code="XK-BV">Bouvetinsel</value>
+						<value code="XA-DE-BB">Brandenburg</value>
 						<value code="XD-BR">Brasilien</value>
+						<value code="XA-DE-HB">Bremen</value>
+						<value code="XI-BQAQ">Britisches Antarktis-Territorium</value>
+						<value code="XL-IO">Britisches Territorium im Indischen Ozean</value>
 						<value code="XB-BN">Brunei</value>
 						<value code="XA-BG">Bulgarien</value>
-						<value code="XA-DE">Bundesrepublik Deutschland</value>
+						<value code="XA-AT-1">Burgenland</value>
 						<value code="XC-BF">Burkina Faso</value>
-						<value code="XB-MM">Burma [jetzt Myanmar]</value>
 						<value code="XC-BI">Burundi</value>
 						<value code="XD-KY">Cayman Islands</value>
 						<value code="XD-CL">Chile</value>
 						<value code="XB-CN">China</value>
-						<value code="XE-CX">Christmas Island &lt;Australien&gt;</value>
+						<value code="XE-CX">Christmas Island (Australien)</value>
 						<value code="XE-CK">Cookinseln</value>
 						<value code="XD-CR">Costa Rica</value>
 						<value code="XD-CW">Curacao</value>
 						<value code="XA-DK">Dänemark</value>
 						<value code="XC-DYBJ">Dahomey</value>
-						<value code="XA-DDDE">Deutschland (DDR)</value>
+						<value code="XC-CD">Demokratische Republik Kongo</value>
+						<value code="XA-DXDE">Deutsches Reich; Deutschland 1945-1949</value>
 						<value code="XA-DE">Deutschland</value>
-						<value code="XA-DXDE">Deutschland, Deutsches Reich [bis 1949]</value>
+						<value code="XA-DDDE">Deutschland (DDR)</value>
 						<value code="XD-DM">Dominica</value>
 						<value code="XD-DO">Dominikanische Republik</value>
 						<value code="XC-DJ">Dschibuti</value>
@@ -1485,12 +1455,15 @@
 						<value code="XC-CI">Elfenbeinküste</value>
 						<value code="XC-ER">Eritrea</value>
 						<value code="XA-EE">Estland</value>
+						<value code="XC-SZ">Eswatini</value>
 						<value code="XK-FO">Färöer</value>
-						<value code="XK-FK">Falklandinseln &lt;Malwinen&gt;</value>
+						<value code="XK-FK">Falklandinseln</value>
 						<value code="XE-FJ">Fidschi</value>
 						<value code="XA-FI">Finnland</value>
 						<value code="XA-YUCS">Föderative Republik Jugoslawien; Jugoslawien</value>
 						<value code="XA-FR">Frankreich</value>
+						<value code="XL-TF">Französische Südgebiete</value>
+						<value code="XC-AIDJ">Französisches Afar- und Issa-Territorium</value>
 						<value code="XD-GF">Französisch-Guayana</value>
 						<value code="XE-PF">Französisch-Polynesien</value>
 						<value code="XC-GA">Gabun</value>
@@ -1499,18 +1472,22 @@
 						<value code="XC-GH">Ghana</value>
 						<value code="XA-GI">Gibraltar</value>
 						<value code="XE-GEHH">Gilbertinseln</value>
+						<value code="XA-CH-GR">Graubünden</value>
 						<value code="XD-GD">Grenada</value>
 						<value code="XA-GR">Griechenland</value>
 						<value code="XK-GL">Grönland</value>
-						<value code="XA-GB">Großbritannien u. Nordirland</value>
+						<value code="XA-GB">Großbritannien</value>
 						<value code="XD-GP">Guadeloupe</value>
 						<value code="XE-GU">Guam</value>
 						<value code="XD-GT">Guatemala</value>
+						<value code="XA-GG">Guernsey</value>
 						<value code="XC-GN">Guinea</value>
 						<value code="XC-GW">Guinea-Bissau</value>
 						<value code="XD-GY">Guyana</value>
 						<value code="XD-HT">Haiti</value>
+						<value code="XA-DE-HH">Hamburg</value>
 						<value code="XI-HM">Heard und McDonaldinseln</value>
+						<value code="XA-DE-HE">Hessen</value>
 						<value code="XD-HN">Honduras</value>
 						<value code="XB-HK">Hongkong</value>
 						<value code="XB-IN">Indien</value>
@@ -1525,30 +1502,43 @@
 						<value code="XD-JM">Jamaika</value>
 						<value code="XB-JP">Japan</value>
 						<value code="XB-YE">Jemen</value>
-						<value code="XB-YKYE">Jemen &lt;Demokratische Volksrepublik&gt;</value>
+						<value code="XB-YKYE">Jemen (Demokratische Volksrepublik)</value>
 						<value code="XA-JE">Jersey</value>
 						<value code="XB-JO">Jordanien</value>						
-						<value code="XD-VG">Jungferninseln &lt;Großbritannien&gt;</value>
-						<value code="XD-VI">Jungferninseln &lt;USA&gt;</value>
+						<value code="XD-VG">Jungferninseln (Großbritannien)</value>
+						<value code="XD-VI">Jungferninseln (USA)</value>
+						<value code="XA-AT-2">Kärnten</value>
 						<value code="XB-KH">Kambodscha</value>
 						<value code="XC-CM">Kamerun</value>
 						<value code="XD-CA">Kanada</value>
-						<value code="XC-CV">Kapverdische Inseln</value>
+						<value code="XA-CH-BE">Kanton Bern</value>
+						<value code="XA-CH-FR">Kanton Freiburg</value>
+						<value code="XA-CH-GE">Kanton Genf</value>
+						<value code="XA-CH-GL">Kanton Glarus</value>
+						<value code="XA-CH-JU">Kanton Jura</value>
+						<value code="XA-CH-LU">Kanton Luzern</value>
+						<value code="XA-CH-NE">Kanton Neuenburg</value>
+						<value code="XA-CH-SG">Kanton Sankt Gallen</value>
+						<value code="XA-CH-SH">Kanton Schaffhausen</value>
+						<value code="XA-CH-SZ">Kanton Schwyz</value>
+						<value code="XA-CH-SO">Kanton Solothurn</value>
+						<value code="XA-CH-ZH">Kanton Zürich</value>
+						<value code="XA-CH-ZG">Kanton Zug</value>
+						<value code="XC-CV">Kap Verde</value>
 						<value code="XB-KZ">Kasachstan</value>
 						<value code="XB-QA">Katar</value>
 						<value code="XC-KE">Kenia</value>
 						<value code="XB-KG">Kirgisien</value>
 						<value code="XE-KI">Kiribati</value>
 						<value code="XI-NQAQ">Königin-Maud-Land</value>
-						<value code="XE-CC">Kokosinseln &lt;Australien&gt;</value>
+						<value code="XE-CC">Kokosinseln</value>
 						<value code="XD-CO">Kolumbien</value>
 						<value code="XC-KM">Komoren</value>
-						<value code="XC-CD">Kongo &lt;Demokratische Republik&gt;</value>
-						<value code="XC-CG">Kongo &lt;Republik&gt;</value>
 						<value code="XA-QV">Kosovo</value>
 						<value code="XA-HR">Kroatien</value>
 						<value code="XD-CU">Kuba</value>
 						<value code="XB-KW">Kuwait</value>
+						<value code="XA-AT-5">Land Salzburg</value>
 						<value code="XB-LA">Laos</value>
 						<value code="XC-LS">Lesotho</value>
 						<value code="XA-LV">Lettland</value>
@@ -1571,39 +1561,49 @@
 						<value code="XC-MR">Mauretanien</value>
 						<value code="XC-MU">Mauritius</value>
 						<value code="XC-YT">Mayotte</value>
+						<value code="XA-DE-MV">Mecklenburg-Vorpommern</value>
 						<value code="XD-MX">Mexiko</value>
+						<value code="XM-MIUM">Midway Islands</value>
 						<value code="XC-MZ">Mocambique</value>
 						<value code="XA-MD">Moldawien</value>
 						<value code="XA-MC">Monaco</value>
 						<value code="XB-MN">Mongolei</value>
 						<value code="XA-ME">Montenegro</value>
-						<value code="XD-MS">Montserrat &lt;Insel&gt;</value>
-						<value code="XB-MM">Myanmar (Burma, Birma)</value>
+						<value code="XD-MS">Montserrat (Insel)</value>
 						<value code="XC-NA">Namibia</value>
 						<value code="XE-NR">Nauru</value>
 						<value code="XB-NP">Nepal</value>
 						<value code="XE-NC">Neukaledonien</value>
 						<value code="XE-NZ">Neuseeland</value>
 						<value code="XD-NI">Nicaragua</value>
-						<value code="XD-ANHH">Niederländische Antillen [1974-2011]</value>
+						<value code="XA-CH-NW">Nidwalden</value>
+						<value code="XD-ANHH">Niederländische Antillen</value>
 						<value code="XA-NL">Niederlande</value>
+						<value code="XA-AT-3">Niederösterreich</value>
+						<value code="XA-DE-NI">Niedersachsen</value>
 						<value code="XC-NE">Niger</value>
 						<value code="XC-NG">Nigeria</value>
 						<value code="XM-NU">Niue</value>
 						<value code="XE-MP">Nördliche Marianen</value>
 						<value code="XB-KP">Nordkorea</value>
 						<value code="XA-MK">Nordmazedonien</value>
+						<value code="XA-DE-NW">Nordrhein-Westfalen</value>
 						<value code="XE-NF">Norfolk-Insel</value>
 						<value code="XA-NO">Norwegen</value>
+						<value code="XA-AT-4">Oberösterreich</value>
+						<value code="XC-HVBF">Obervolta</value>
+						<value code="XA-CH-OW">Obwalden</value>
 						<value code="XA-AT">Österreich</value>
-						<value code="XA-AAAT">Österreich [bis 1918, inkl.Kronländer]</value>
+						<value code="XA-AAAT">Österreich (-12.11.1918)</value>
 						<value code="XB-OM">Oman</value>
 						<value code="XV">Osmanisches Reich</value>
-						<value code="XB-TL">Osttimor</value>
-						<value code="XB-TPTL">Osttimor [bis 2002]</value>
+						<value code="XB-TL">Osttimor (ab Mai 2002)</value>
+						<value code="XB-TPTL">Osttimor (1974-2002)</value>
+						<value code="XE-PCHH">Ozeanien</value>
 						<value code="XB-PK">Pakistan</value>
 						<value code="XE-PW">Palauinseln</value>
 						<value code="XD-PA">Panama</value>
+						<value code="XD-PZPA">Panamakanalzone</value>
 						<value code="XE-PG">Papua-Neuguinea</value>
 						<value code="XD-PY">Paraguay</value>
 						<value code="XD-PE">Peru</value>
@@ -1614,15 +1614,19 @@
 						<value code="XB-BUMM">Provinz Burma</value>
 						<value code="XD-PR">Puerto Rico</value>
 						<value code="XL-RE">Reunion</value>
+						<value code="XA-DE-RP">Rheinland-Pfalz</value>
 						<value code="XC-RW">Ruanda</value>
 						<value code="XA-RO">Rumänien</value>
 						<value code="XA-RU">Russland</value>
-						<value code="XC-RW">Rwanda</value>
+						<value code="XC-RW">Ruanda</value>
+						<value code="XA-DE-SL">Saarland</value>
+						<value code="XA-DE-SN">Sachsen</value>
+						<value code="XA-DE-ST">Sachsen-Anhalt</value>
 						<value code="XD-KN">Saint Kitts and Nevis</value>
 						<value code="XD-LC">Saint Lucia</value>
 						<value code="XD-VC">Saint Vincent and the Grenadines</value>
-						<value code="XD-BL">Saint-Barthelemy &lt;Kleine Antillen&gt;</value>
-						<value code="XD-MF">Saint-Martin &lt;Kleine Antillen, Nord&gt;</value>
+						<value code="XD-BL">Saint-Barthelemy (Kleine Antillen)</value>
+						<value code="XD-MF">Saint-Martin (Kleine Antillen, Nord)</value>
 						<value code="XD-PM">Saint-Pierre-et-Miquelon</value>
 						<value code="XE-SB">Salomonen</value>
 						<value code="XC-ZM">Sambia</value>
@@ -1630,13 +1634,15 @@
 						<value code="XK-SH">Sankt Helena</value>
 						<value code="XC-ST">Sao Tome und Principe</value>
 						<value code="XB-SA">Saudi-Arabien</value>
+						<value code="XA-DE-SH">Schleswig-Holstein</value>
 						<value code="XA-SE">Schweden</value>
 						<value code="XA-CH">Schweiz</value>
 						<value code="XC-SN">Senegal</value>
 						<value code="XA-RS">Serbien</value>
-						<value code="XA-CSXX">Serbien und Montenegro [2003 bis 2006]</value>
+						<value code="XA-CSXX">Serbien und Montenegro</value>
 						<value code="XC-SC">Seychellen</value>
 						<value code="XC-SL">Sierra Leone</value>
+						<value code="XB-SKIN">Sikkim</value>
 						<value code="XC-ZW">Simbabwe</value>
 						<value code="XB-SG">Singapur</value>
 						<value code="XD-SX">Sint Maarten</value>
@@ -1645,102 +1651,66 @@
 						<value code="XC-SO">Somalia</value>
 						<value code="XA-SUHH">Sowjetunion</value>
 						<value code="XA-ES">Spanien</value>
-						<value code="XB-LK">Sri Lanka (früher Ceylon)</value>
+						<value code="XB-LK">Sri Lanka</value>
+						<value code="XE-FM">Staat Mikronesien</value>
+						<value code="XC-SS">Staat Südsudan</value>
+						<value code="XA-AT-6">Steiermark</value>
 						<value code="XC-SD">Sudan</value>
-						<value code="XC-ZA">Südafrika &lt;Staat&gt;</value>
+						<value code="XC-ZA">Südafrika</value>
 						<value code="XK-GS">Südgeorgien und Südliche Sandwichinseln</value>
 						<value code="XB-KR">Südkorea</value>
-						<value code="XC-RHZW">Südrhodiesien</value>
+						<value code="XC-RHZW">Südrhodesien</value>
 						<value code="XB-VDVN">Südvietnam</value>
 						<value code="XD-SR">Surinam</value>
 						<value code="XK-SJ">Svalbard und Jan Mayen</value>
-						<value code="XC-SZ">Swasiland</value>
 						<value code="XB-SY">Syrien</value>
 						<value code="XB-TJ">Tadschikistan</value>
 						<value code="XB-TW">Taiwan</value>
 						<value code="XC-TZ">Tansania</value>
+						<value code="XI-FQHH">Terres Australes et Antarctiques Francaises</value>
+						<value code="XA-CH-TI">Tessin</value>
 						<value code="XB-TH">Thailand</value>
+						<value code="XA-DE-TH">Thüringen</value>
+						<value code="XA-CH-TG">Thurgau</value>
+						<value code="XB-CN-54">Tibet</value>
+						<value code="XA-AT-7">Tirol</value>
 						<value code="XC-TG">Togo</value>
 						<value code="XE-TK">Tokelau</value>
 						<value code="XE-TO">Tonga</value>
+						<value code="XA-IT-32">Trentino-Südtirol</value>
 						<value code="XD-TT">Trinidad und Tobago</value>
 						<value code="XC-TD">Tschad</value>
-						<value code="XA-CZ">Tschechien (Tschechische Republik) [ab 1993]</value>
-						<value code="XA-CSHH">Tschechoslowakei [bis 1992]</value>
+						<value code="XA-CZ">Tschechische Republik</value>
+						<value code="XA-CSHH">Tschechoslowakei</value>
 						<value code="XB-TR">Türkei</value>
 						<value code="XC-TN">Tunesien</value>
 						<value code="XB-TM">Turkmenistan</value>
+						<value code="XD-TC">Turks- und Caicosinseln</value>
 						<value code="XE-TV">Tuvalu</value>
 						<value code="XC-UG">Uganda</value>
 						<value code="XA-UA">Ukraine</value>
 						<value code="XA-HU">Ungarn</value>
+						<value code="XA-CH-UR">Uri</value>
 						<value code="XD-UY">Uruguay</value>
 						<value code="XD-US">USA</value>
 						<value code="XB-UZ">Usbekistan</value>
+						<value code="XE-VU">Vanuatu</value>
+						<value code="XE-NHVU">Vanuatu (Neue Hebriden)</value>
 						<value code="XA-VA">Vatikanstadt</value>
 						<value code="XD-VE">Venezuela</value>
 						<value code="XB-AE">Vereinigte Arabische Emirate</value>
 						<value code="XB-VN">Vietnam</value>
+						<value code="XA-AT-8">Vorarlberg</value>
+						<value code="XA-CH-VD">Waadt</value>
+						<value code="XA-CH-VS">Wallis</value>
 						<value code="XE-WF">Wallis und Futuna</value>
-						<value code="XA-BY">Weißrussland</value>
 						<value code="XC-EH">Westsahara</value>
 						<value code="XE-WS">Westsamoa</value>
+						<value code="XA-AT-9">Wien</value>
 						<value code="XC-ZR">Zaire</value>
 						<value code="XC-CF">Zentralafrikanische Republik</value>
 						<value code="XA-CY">Zypern</value>
 						<value code="ZZ">Land unbekannt</value>
-						<value code="XA-DE-BW">Baden-Württemberg</value>
-						<value code="XA-DE-BY">Bayern</value>
-						<value code="XA-DE-BE">Berlin</value>
-						<value code="XA-DE-BB">Brandenburg</value>
-						<value code="XA-DE-HB">Bremen</value>
-						<value code="XA-DE-HH">Hamburg</value>
-						<value code="XA-DE-HE">Hessen</value>
-						<value code="XA-DE-MV">Mecklenburg-Vorpommern</value>
-						<value code="XA-DE-NI">Niedersachsen</value>
-						<value code="XA-DE-NW">Nordrhein-Westfalen</value>
-						<value code="XA-DE-RP">Rheinland-Pfalz</value>
-						<value code="XA-DE-SL">Saarland</value>
-						<value code="XA-DE-SN">Sachsen</value>
-						<value code="XA-DE-ST">Sachsen-Anhalt</value>
-						<value code="XA-DE-SH">Schleswig-Holstein</value>
-						<value code="XA-DE-TH">Thüringen</value>
-						<value code="XA-AT-1">Burgenland</value>
-						<value code="XA-AT-2">Kärnten</value>
-						<value code="XA-AT-5">Land Salzburg</value>
-						<value code="XA-AT-3">Niederösterreich</value>
-						<value code="XA-AT-4">Oberösterreich</value>
-						<value code="XA-AT-6">Steiermark</value>
-						<value code="XA-AT-7">Tirol</value>
-						<value code="XA-AT-8">Vorarlberg</value>
-						<value code="XA-AT-9">Wien</value>
-						<value code="XA-IT-32">Trentino-Südtirol</value>
-						<value code="XA-CH-AG">Aargau</value>
-						<value code="XA-CH-AR">Appenzell &lt;Ausserrhoden&gt;</value>
-						<value code="XA-CH-AI">Appenzell &lt;Innerrhoden&gt;</value>
-						<value code="XA-CH-BS">Basel</value>
-						<value code="XA-CH-BL">Basel-Landschaft</value>
-						<value code="XA-CH-GR">Graubünden</value>
-						<value code="XA-CH-BE">Kanton Bern</value>
-						<value code="XA-CH-FR">Kanton Freiburg</value>
-						<value code="XA-CH-GE">Kanton Genf</value>
-						<value code="XA-CH-GL">Kanton Glarus</value>
-						<value code="XA-CH-JU">Kanton Jura</value>
-						<value code="XA-CH-LU">Kanton Luzern</value>
-						<value code="XA-CH-NE">Kanton Neuenburg</value>
-						<value code="XA-CH-SG">Kanton Sankt Gallen</value>
-						<value code="XA-CH-SH">Kanton Schaffhausen</value>
-						<value code="XA-CH-SZ">Kanton Schwyz</value>
-						<value code="XA-CH-SO">Kanton Solothurn</value>
-						<value code="XA-CH-ZH">Kanton Zürich</value>
-						<value code="XA-CH-ZG">Kanton Zug</value>
-						<value code="XA-CH-NW">Nidwalden</value>
-						<value code="XA-CH-SG">Sankt Gallen &lt;Kanton&gt;</value>
-						<value code="XA-CH-UR">Uri</value>
-						<value code="XA-CH-TI">Tessin</value>
-						<value code="XA-CH-TG">Thurgau</value>
-						<value code="XA-CH-VD">Waadt</value>
-						<value code="XA-CH-VS">Wallis</value>
 						</values>
 				</sub_field_configuration>
 				<sub_field_configuration repeatable="true" mandatory="false" code="2">
@@ -3148,10 +3118,10 @@
 				</values>
 			</first_indicator_configuration>
 			<second_indicator_configuration>
-				<description>Steuerung der Fussnote</description>
+				<description>Steuerung der Fußnote</description>
 				<values>
-					<value code="0">Fussnote anzeigen</value>
-					<value code="1">Fussnote nicht anzeigen</value>
+					<value code="0">Fußnote anzeigen</value>
+					<value code="1">Fußnote nicht anzeigen</value>
 				</values>
 			</second_indicator_configuration>
 			<sub_fields_list>
@@ -3314,6 +3284,12 @@
 				<sub_field_configuration repeatable="true" mandatory="true" code="c">
 					<description>Entstehungs-, Veröffentlichungs-, Vertriebs-, Herstellungsdatum oder Copyrightvermerk</description>
 				</sub_field_configuration>
+				<sub_field_configuration repeatable="true" mandatory="false" code="C">
+					<description>Entstehungs-, Veröffentlichungs-, Vertriebs-, Herstellungsdatum oder Copyrightvermerk</description>
+					<values>
+						<value code="&#169;"> | </value>
+					</values>	
+				</sub_field_configuration>
 				<sub_field_configuration repeatable="false" mandatory="false" code="3">
 					<description>Spezifische Materialangaben</description>
 				</sub_field_configuration>
@@ -3449,7 +3425,6 @@
 						<value code="Illustrationen"> | </value>
 						<value code="Buchmalereien"> | </value>
 						<value code="Diagramme"> | </value>
-						<value code="Faksimiles"> | </value>
 						<value code="Formulare"> | </value>
 						<value code="Fotografien"> | </value>
 						<value code="genealogische Tafeln"> | </value>
@@ -3462,6 +3437,7 @@
 						<value code="Illustration"> | </value>
 						<value code="Muster &lt;für Materialproben&gt;"> | </value>
 						<value code="farbig"> | </value>
+						<value code="farblos"> | </value>
 						<value code="teilweise farbig"> | </value>
 						<value code="überwiegend farbig"> | </value>
 						<value code="schwarz-weiß"> | </value>
@@ -4080,7 +4056,7 @@
 					<description>Verküpfung</description>
 				</sub_field_configuration>
 				<sub_field_configuration repeatable="true" mandatory="false" code="8">
-					<description>Feldverknüpfung und Sequenznummer</description>
+					<description>Feldverknüpfung und Reihenfolge</description>
 				</sub_field_configuration>
 				<sub_field_configuration repeatable="true" mandatory="false" code="9">
 					<description>Feldzuordnung Aleph</description>
@@ -4227,14 +4203,34 @@
 				<sub_field_configuration repeatable="true" mandatory="false" code="b">
 					<description>Projektionsgeschwindigkeit</description>
 				</sub_field_configuration>
+				<sub_field_configuration repeatable="true" mandatory="false" code="c">
+					<description>Seitenverhältniswert</description>
+				</sub_field_configuration>
+				<sub_field_configuration repeatable="true" mandatory="false" code="d">
+					<description>Seitenverhältniskennzeichnung</description>
+					<values>
+						<value code="Hauptelement"> | </value>
+						<value code="Breitbild"> | </value>
+						<value code="unterschiedliche Bildseitenverhältnisse"> | </value>
+						<value code="Vollbild"> | </value>
+						<value code="Anmerkung/Detail"> | </value>
+						<value code="Nicht zutreffend"> | </value>
+					</values>
+				</sub_field_configuration>
+				<sub_field_configuration repeatable="true" mandatory="false" code="0">
+					<description>IDN des Normdatensatzes oder Standardnummer</description>
+				</sub_field_configuration>
 				<sub_field_configuration repeatable="true" mandatory="false" code="1">
 					<description>URI</description>
 				</sub_field_configuration>
 				<sub_field_configuration repeatable="false" mandatory="false" code="2">
-					<description>Herkunft der Angaben</description>
+					<description>Quelle</description>
 				</sub_field_configuration>
 				<sub_field_configuration repeatable="false" mandatory="false" code="3">
 					<description>Zuordnung zu bestimmten Teilen der Vorlage</description>
+				</sub_field_configuration>
+				<sub_field_configuration repeatable="false" mandatory="false" code="6">
+					<description>Verküpfung</description>
 				</sub_field_configuration>
 				<sub_field_configuration repeatable="true" mandatory="false" code="8">
 					<description>Feldverknüpfung und Reihenfolge</description>
@@ -4261,13 +4257,13 @@
 					<description>Videoformat</description>
 					<values>
 						<value code="8 mm"> | </value>
-						<value code="Beta"> | </value>
+						<value code="Betamax"> | </value>
 						<value code="Betacam"> | </value>
 						<value code="Betacam SP"> | </value>
 						<value code="CED"> | </value>
 						<value code="D-2"> | </value>
 						<value code="EIAJ"> | </value>
-						<value code="Hi-8 mm"> | </value>
+						<value code="Hi8"> | </value>
 						<value code="Laser optical"> | </value>
 						<value code="M-II"> | </value>
 						<value code="Quadruplex"> | </value>
@@ -4275,6 +4271,7 @@
 						<value code="Type C"> | </value>
 						<value code="U-matic"> | </value>
 						<value code="VHS"> | </value>
+						<value code="Video8"> | </value>
 					</values>
 				</sub_field_configuration>
 				<sub_field_configuration repeatable="true" mandatory="false" code="b">
@@ -4456,6 +4453,8 @@
 						<value code="Klavierauszug">bitte den Eintrag mit $$0 auswählen</value>
 						<value code="Klavierbearbeitung$$0(DE-588)1073935019$$2gnd-content"> | </value>
 						<value code="Klavierbearbeitung">bitte den Eintrag mit $$0 auswählen</value>
+						<value code="Leadsheet$$0(DE-588)1362835048$$2gnd-content"> | </value>
+						<value code="Leadsheet">bitte den Eintrag mit $$0 auswählen</value>
 						<value code="Orgelauszug$$0(DE-588)1209713322$$2gnd-content"> | </value>
 						<value code="Orgelauszug">bitte den Eintrag mit $$0 auswählen</value>
 						<value code="Particell$$0(DE-588)1071331124$$2gnd-content"> | </value>
@@ -4877,6 +4876,8 @@
 						<value code="Kind">bitte den Eintrag mit $$0 auswählen</value>
 						<value code="Lehrer$$0(DE-588)4035088-5$$2gnd-content"> | </value>
 						<value code="Lehrer">bitte den Eintrag mit $$0 auswählen</value>
+						<value code="Lernender$$0(DE-588)1356653227$$2gnd-content"> | </value>
+						<value code="Lernender">bitte den Eintrag mit $$0 auswählen</value>
 						<value code="Leseanfänger$$0(DE-588)1070543659$$2gnd-content"> | </value>
 						<value code="Leseanfänger">bitte den Eintrag mit $$0 auswählen</value>
 						<value code="Schüler$$0(DE-588)4053369-4$$2gnd-content"> | </value>
@@ -4972,7 +4973,7 @@
 			</second_indicator_configuration>
 			<sub_fields_list>
 				<sub_field_configuration repeatable="false" mandatory="false" code="a">
-					<description>Allgemeine Fussnote</description>
+					<description>Allgemeine Fußnote</description>
 				</sub_field_configuration>
 				<sub_field_configuration repeatable="false" mandatory="false" code="3">
 					<description>Spezifische Materialangabe</description>
@@ -4990,7 +4991,7 @@
 					<description>Feldzuordnung Aleph</description>
 				</sub_field_configuration>
 				<sub_field_configuration repeatable="false" mandatory="false" code="D">
-					<description>Allgemeine Fussnote</description>
+					<description>Allgemeine Fußnote</description>
 					<values>
 						<value code="Erscheint täglich">EF</value>
 						<value code="Erscheint dreimal pro Woche">EF</value>
@@ -5049,7 +5050,7 @@
 			</second_indicator_configuration>
 			<sub_fields_list>
 				<sub_field_configuration repeatable="false" mandatory="false" code="a">
-					<description>Fussnote zu enthaltenen Werken</description>
+					<description>Fußnote zu enthaltenen Werken</description>
 				</sub_field_configuration>
 				<sub_field_configuration repeatable="false" mandatory="false" code="5">
 					<description>Institution, auf die sich das Feld bezieht</description>
@@ -5120,7 +5121,7 @@
 			</sub_fields_list>
 		</data_field_configuration>
 		<data_field_configuration repeatable="true" mandatory="false" tag="505" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://com/exlibris/repository/mdprofile/xmlbeans">
-			<description>Fussnote zu strukturierten Inhaltsangaben</description>
+			<description>Fußnote zu strukturierten Inhaltsangaben</description>
 			<help_url>https://www.alma-dach.org/alma-marc/bibliographic/505/505.html</help_url>
 			<first_indicator_configuration>
 				<description>Anzeigekonstante</description>
@@ -5140,7 +5141,7 @@
 			</second_indicator_configuration>
 			<sub_fields_list>
 				<sub_field_configuration repeatable="false" mandatory="false" code="a">
-					<description>Fussnote zu strukturierten Inhaltsangaben</description>
+					<description>Fußnote zu strukturierten Inhaltsangaben</description>
 				</sub_field_configuration>
 				<sub_field_configuration repeatable="true" mandatory="false" code="g">
 					<description>Sonstige Informationen</description>
@@ -5300,6 +5301,23 @@
 				</sub_field_configuration>
 				<sub_field_configuration repeatable="false" mandatory="false" code="7">
 					<description>Datenelemente der Reproduktion mit fester Länge</description>
+					<values>
+						<value code="b"> | </value>
+						<value code="c"> | </value>
+						<value code="d"> | </value>
+						<value code="e"> | </value>
+						<value code="i"> | </value>
+						<value code="k"> | </value>
+						<value code="m"> | </value>
+						<value code="n"> | </value>
+						<value code="p"> | </value>
+						<value code="q"> | </value>
+						<value code="r"> | </value>
+						<value code="s"> | </value>
+						<value code="t"> | </value>
+						<value code="u"> | </value>
+						<value code="|"> | </value>
+					</values>
 				</sub_field_configuration>
 				<sub_field_configuration repeatable="true" mandatory="false" code="8">
 					<description>Feldverknüpfung und Reihenfolge</description>
@@ -5340,12 +5358,12 @@
 				<sub_field_configuration repeatable="true" mandatory="false" code="F">
 					<description>Standardisierte Terminologie für Nutzungs- und Vervielfältigungsrechte</description>
 					<values>
-						<value code="CC-BY">Namensnennung</value>
-						<value code="CC-BY-SA">Namensnennung, Weitergabe unter gleichen Bedingungen</value>
-						<value code="CC-BY-ND">Namensnennung, keine Bearbeitung</value>
-						<value code="CC-BY-NC">Namensnennung, nicht kommerziell</value>
-						<value code="CC-BY-NC-SA">Namensnennung, nicht kommerziell, Weitergabe unter gleichen Bedingungen</value>
-						<value code="CC-BY-NC-ND">Namensnennung, nicht kommerziell, keine Bearbeitung</value>
+						<value code="CC BY">Namensnennung</value>
+						<value code="CC BY-SA">Namensnennung, Weitergabe unter gleichen Bedingungen</value>
+						<value code="CC BY-ND">Namensnennung, keine Bearbeitung</value>
+						<value code="CC BY-NC">Namensnennung, nicht kommerziell</value>
+						<value code="CC BY-NC-SA">Namensnennung, nicht kommerziell, Weitergabe unter gleichen Bedingungen</value>
+						<value code="CC BY-NC-ND">Namensnennung, nicht kommerziell, keine Bearbeitung</value>
 						<value code="RS INC 1.0">(Urheberrechtsschutz)</value>
 					</values>
 				</sub_field_configuration>
@@ -5575,7 +5593,7 @@
 					<description>Verküpfung</description>
 				</sub_field_configuration>
 				<sub_field_configuration repeatable="true" mandatory="false" code="8">
-					<description>Feldverknüpfung und Sequenznummer</description>
+					<description>Feldverknüpfung und Reihenfolge</description>
 				</sub_field_configuration>
 			</sub_fields_list>
 		</data_field_configuration>
@@ -6122,6 +6140,8 @@
 						<value code="Adressbuch">bitte den Eintrag mit $$0 auswählen</value>
 						<value code="Altkarte$$0(DE-588)4611904-8$$2gnd-content">SE</value>
 						<value code="Altkarte">bitte den Eintrag mit $$0 auswählen</value>
+						<value code="Amateurfilm$$0(DE-588)4132119-4$$2gnd-content">SE optional</value>
+						<value code="Amateurfilm">bitte den Eintrag mit $$0 auswählen</value>
 						<value code="Amtliche Publikation$$0(DE-588)4142300-8$$2gnd-content">SE</value>
 						<value code="Amtliche Publikation">bitte den Eintrag mit $$0 auswählen</value>
 						<value code="Animationsfilm$$0(DE-588)4142484-0$$2gnd-content">SE optional</value>
@@ -6186,6 +6206,8 @@
 						<value code="Bühnenmanuskript">bitte den Eintrag mit $$0 auswählen</value>
 						<value code="Buchobjekt$$0(DE-588)4269067-5$$2gnd-content">SE optional</value>
 						<value code="Buchobjekt">bitte den Eintrag mit $$0 auswählen</value>
+						<value code="Buntpapier$$0(DE-588)4009080-2$$2gnd-content">SE optional</value>
+						<value code="Buntpapier">bitte den Eintrag mit $$0 auswählen</value>
 						<value code="Checkliste$$0(DE-588)4398750-3$$2gnd-content">SE</value>
 						<value code="Checkliste">bitte den Eintrag mit $$0 auswählen</value>
 						<value code="Comic$$0(DE-588)4010427-8$$2gnd-content">FE/SE</value>
@@ -6196,6 +6218,8 @@
 						<value code="Datensammlung">bitte den Eintrag mit $$0 auswählen</value>
 						<value code="Diagramm$$0(DE-588)4012044-2$$2gnd-content">SE</value>
 						<value code="Diagramm">bitte den Eintrag mit $$0 auswählen</value>
+						<value code="Digitale Edition$$0(DE-588)1212244893$$2gnd-content">SE optional</value>
+						<value code="Digitale Edition">bitte den Eintrag mit $$0 auswählen</value>
 						<value code="Diskografie$$0(DE-588)7504297-6$$2gnd-content">SE</value>
 						<value code="Diskografie">bitte den Eintrag mit $$0 auswählen</value>
 						<value code="Dissertation &lt;Alter Druck&gt;$$0(DE-588)125354915X$$2gnd-content">SE optional</value>
@@ -6226,6 +6250,8 @@
 						<value code="Fallsammlung">bitte den Eintrag mit $$0 auswählen</value>
 						<value code="Fallstudiensammlung$$0(DE-588)4522595-3$$2gnd-content">SE</value>
 						<value code="Fallstudiensammlung">bitte den Eintrag mit $$0 auswählen</value>
+						<value code="Fernsehfilm$$0(DE-588)4154054-2$$2gnd-content">SE optional</value>
+						<value code="Fernsehfilm">bitte den Eintrag mit $$0 auswählen</value>
 						<value code="Fernsehsendung$$0(DE-588)4016842-6$$2gnd-content">SE optional</value>
 						<value code="Fernsehsendung">bitte den Eintrag mit $$0 auswählen</value>
 						<value code="Fernsehserie$$0(DE-588)4154072-4$$2gnd-content">SE optional</value>
@@ -6262,6 +6288,8 @@
 						<value code="Gebetbuch">bitte den Eintrag mit $$0 auswählen</value>
 						<value code="Gelegenheitsschrift$$0(DE-588)4156438-8$$2gnd-content">SE optional</value>
 						<value code="Gelegenheitsschrift">bitte den Eintrag mit $$0 auswählen</value>
+						<value code="Gemälde$$0(DE-588)4122164-3$$2gnd-content">SE optional</value>
+						<value code="Gemälde">bitte den Eintrag mit $$0 auswählen</value>
 						<value code="Genealogische Tafel$$0(DE-588)4156582-4$$2gnd-content">SE</value>
 						<value code="Genealogische Tafel">bitte den Eintrag mit $$0 auswählen</value>
 						<value code="Gesangbuch$$0(DE-588)4137651-1$$2gnd-content">SE optional</value>
@@ -6294,6 +6322,8 @@
 						<value code="Hörspiel">bitte den Eintrag mit $$0 auswählen</value>
 						<value code="Humoristische Darstellung$$0(DE-588)4160799-5$$2gnd-content">SE</value>
 						<value code="Humoristische Darstellung">bitte den Eintrag mit $$0 auswählen</value>
+						<value code="Industriefilm$$0(DE-588)4248464-9$$2gnd-content">SE optional</value>
+						<value code="Industriefilm">bitte den Eintrag mit $$0 auswählen</value>
 						<value code="Inkunabel$$0(DE-588)4027041-5$$2gnd-content">SE</value>
 						<value code="Inkunabel">bitte den Eintrag mit $$0 auswählen</value>
 						<value code="Interview$$0(DE-588)4027503-6$$2gnd-content">SE</value>
@@ -6302,6 +6332,8 @@
 						<value code="Inventar">bitte den Eintrag mit $$0 auswählen</value>
 						<value code="Jugendbuch$$0(DE-588)4306252-0$$2gnd-content">SE</value>
 						<value code="Jugendbuch">bitte den Eintrag mit $$0 auswählen</value>
+						<value code="Jugendfilm$$0(DE-588)4214004-3$$2gnd-content">SE optional</value>
+						<value code="Jugendfilm">bitte den Eintrag mit $$0 auswählen</value>
 						<value code="Jugendsachbuch$$0(DE-588)4028933-3$$2gnd-content">SE</value>
 						<value code="Jugendsachbuch">bitte den Eintrag mit $$0 auswählen</value>
 						<value code="Kalender$$0(DE-588)4029290-3$$2gnd-content">SE</value>
@@ -6316,8 +6348,12 @@
 						<value code="Kartenwerk">bitte den Eintrag mit $$0 auswählen</value>
 						<value code="Katalog$$0(DE-588)4163417-2$$2gnd-content">SE</value>
 						<value code="Katalog">bitte den Eintrag mit $$0 auswählen</value>
+						<value code="Katechismus$$0(DE-588)4131748-8$$2gnd-content">SE optional</value>
+						<value code="Katechismus">bitte den Eintrag mit $$0 auswählen</value>
 						<value code="Kinderbuch$$0(DE-588)4303251-5$$2gnd-content">SE</value>
 						<value code="Kinderbuch">bitte den Eintrag mit $$0 auswählen</value>
+						<value code="Kinderfilm$$0(DE-588)4163815-3$$2gnd-content">SE optional</value>
+						<value code="Kinderfilm">bitte den Eintrag mit $$0 auswählen</value>
 						<value code="Kindersachbuch$$0(DE-588)4163854-2$$2gnd-content">SE</value>
 						<value code="Kindersachbuch">bitte den Eintrag mit $$0 auswählen</value>
 						<value code="Kochbuch$$0(DE-588)4114240-8$$2gnd-content">SE</value>
@@ -6332,10 +6368,14 @@
 						<value code="Konkordanz">bitte den Eintrag mit $$0 auswählen</value>
 						<value code="Konzertzettel$$0(DE-588)1332430376$$2gnd-content">SE optional</value>
 						<value code="Konzertzettel">bitte den Eintrag mit $$0 auswählen</value>
+						<value code="Kritische Ausgabe$$0(DE-588)4165777-9$$2gnd-content">SE optional</value>
+						<value code="Kritische Ausgabe">bitte den Eintrag mit $$0 auswählen</value>
 						<value code="Künstlerbuch$$0(DE-588)4229053-3$$2gnd-content">SE</value>
 						<value code="Künstlerbuch">bitte den Eintrag mit $$0 auswählen</value>
 						<value code="Künstlerpostkarte$$0(DE-588)4165892-9$$2gnd-content">SE optional</value>
 						<value code="Künstlerpostkarte">bitte den Eintrag mit $$0 auswählen</value>
+						<value code="Kulturfilm$$0(DE-588)1375959476$$2gnd-content">SE optional</value>
+						<value code="Kulturfilm">bitte den Eintrag mit $$0 auswählen</value>
 						<value code="Kunstführer$$0(DE-588)4166029-8$$2gnd-content">SE</value>
 						<value code="Kunstführer">bitte den Eintrag mit $$0 auswählen</value>
 						<value code="Kurzfilm$$0(DE-588)4166233-7$$2gnd-content">SE optional</value>
@@ -6348,8 +6388,8 @@
 						<value code="Lehrerhandbuch">bitte den Eintrag mit $$0 auswählen</value>
 						<value code="Lehrfilm$$0(DE-588)4167177-6$$2gnd-content">SE optional</value>
 						<value code="Lehrfilm">bitte den Eintrag mit $$0 auswählen</value>
-						<value code="Lehrmittel$$0(DE-588)4074111-4$$2gnd-content">SE</value>
-						<value code="Lehrmittel">bitte den Eintrag mit $$0 auswählen</value>
+						<value code="Lehr- und Lernressource$$0(DE-588)4074111-4$$2gnd-content">SE</value>
+						<value code="Lehr- und Lernressource">bitte den Eintrag mit $$0 auswählen</value>
 						<value code="Lehrplan$$0(DE-588)4035117-8$$2gnd-content">SE</value>
 						<value code="Lehrplan">bitte den Eintrag mit $$0 auswählen</value>
 						<value code="Leichenpredigt$$0(DE-588)4074117-5$$2gnd-content">SE optional</value>
@@ -6374,6 +6414,10 @@
 						<value code="Mehrsprachiges Wörterbuch">bitte den Eintrag mit $$0 auswählen</value>
 						<value code="Menükarte$$0(DE-588)1350087084$$2gnd-content">SE optional</value>
 						<value code="Menükarte">bitte den Eintrag mit $$0 auswählen</value>
+						<value code="Miniserie$$0(DE-588)1211117456$$2gnd-content">SE optional</value>
+						<value code="Miniserie">bitte den Eintrag mit $$0 auswählen</value>
+						<value code="Missale$$0(DE-588)4170131-8$$2gnd-content">SE optional</value>
+						<value code="Missale">bitte den Eintrag mit $$0 auswählen</value>
 						<value code="Mitgliederverzeichnis$$0(DE-588)4170173-2$$2gnd-content">SE</value>
 						<value code="Mitgliederverzeichnis">bitte den Eintrag mit $$0 auswählen</value>
 						<value code="Modell$$0(DE-588)4039798-1$$2gnd-content">SE</value>
@@ -6454,8 +6498,12 @@
 						<value code="Sachcomic">bitte den Eintrag mit $$0 auswählen</value>
 						<value code="Satzung$$0(DE-588)4051778-0$$2gnd-content">SE</value>
 						<value code="Satzung">bitte den Eintrag mit $$0 auswählen</value>
+						<value code="Schaustellerblatt$$0(DE-588)1369452020$$2gnd-content">SE optional</value>
+						<value code="Schaustellerblatt">bitte den Eintrag mit $$0 auswählen</value>
 						<value code="Schematismus$$0(DE-588)4179484-9$$2gnd-content">SE</value>
 						<value code="Schematismus">bitte den Eintrag mit $$0 auswählen</value>
+						<value code="Schriftprobe$$0(DE-588)4138999-2$$2gnd-content">SE optional</value>
+						<value code="Schriftprobe">bitte den Eintrag mit $$0 auswählen</value>
 						<value code="Schulbuch$$0(DE-588)4053458-3$$2gnd-content">FE/SE</value>
 						<value code="Schulbuch">bitte den Eintrag mit $$0 auswählen</value>
 						<value code="Schulprogramm$$0(DE-588)4077211-1$$2gnd-content">FE/SE</value>
@@ -6484,6 +6532,8 @@
 						<value code="Tafel">bitte den Eintrag mit $$0 auswählen</value>
 						<value code="Tagebuch$$0(DE-588)4058900-6$$2gnd-content">SE</value>
 						<value code="Tagebuch">bitte den Eintrag mit $$0 auswählenE</value>
+						<value code="Tarnschrift$$0(DE-588)4124290-7$$2gnd-content">SE optional</value>
+						<value code="Tarnschrift">bitte den Eintrag mit $$0 auswählen</value>
 						<value code="Technische Zeichnung$$0(DE-588)4133914-9$$2gnd-content">SE</value>
 						<value code="Technische Zeichnung">bitte den Eintrag mit $$0 auswählen</value>
 						<value code="Telefonbuch$$0(DE-588)4184643-6$$2gnd-content">SE</value>
@@ -6496,6 +6546,8 @@
 						<value code="Theaterzettel">bitte den Eintrag mit $$0 auswählen</value>
 						<value code="Thesaurus$$0(DE-588)4185172-9$$2gnd-content">SE</value>
 						<value code="Thesaurus">bitte den Eintrag mit $$0 auswählen</value>
+						<value code="Trailer$$gFilm$$0(DE-588)4349797-4$$2gnd-content">SE optional</value>
+						<value code="Trailer$$gFilm">bitte den Eintrag mit $$0 auswählen</value>
 						<value code="Übungssammlung$$0(DE-588)4222208-4$$2gnd-content">SE</value>
 						<value code="Übungssammlung">bitte den Eintrag mit $$0 auswählen</value>
 						<value code="Umfrage$$0(DE-588)4005227-8$$2gnd-content">SE</value>
@@ -6522,12 +6574,16 @@
 						<value code="Website">bitte den Eintrag mit $$0 auswählen</value>
 						<value code="Weltkarte$$0(DE-588)4065368-7$$2gnd-content">SE</value>
 						<value code="Weltkarte">bitte den Eintrag mit $$0 auswählen</value>
+						<value code="Werbefilm$$0(DE-588)4189637-3$$2gnd-content">SE optional</value>
+						<value code="Werbefilm">bitte den Eintrag mit $$0 auswählen</value>
 						<value code="Werkverzeichnis$$0(DE-588)4189680-4$$2gnd-content">SE</value>
 						<value code="Werkverzeichnis">bitte den Eintrag mit $$0 auswählen</value>
 						<value code="Werkzeitschrift$$0(DE-588)4189682-8$$2gnd-content">SE</value>
 						<value code="Werkzeitschrift">bitte den Eintrag mit $$0 auswählen</value>
 						<value code="Wörterbuch$$0(DE-588)4066724-8$$2gnd-content">SE</value>
 						<value code="Wörterbuch">bitte den Eintrag mit $$0 auswählen</value>
+						<value code="Wochenschau$$0(DE-588)4190144-7$$2gnd-content">SE optional</value>
+						<value code="Wochenschau">bitte den Eintrag mit $$0 auswählen</value>
 						<value code="Zeichnung$$0(DE-588)4127900-1$$2gnd-content">SE</value>
 						<value code="Zeichnung">bitte den Eintrag mit $$0 auswählen</value>
 						<value code="Zeitschrift$$0(DE-588)4067488-5$$2gnd-content">FE/SE</value>
@@ -7834,7 +7890,7 @@
 					<description>Materialspezifische Angabe</description>
 				</sub_field_configuration>
 				<sub_field_configuration repeatable="true" mandatory="false" code="n">
-					<description>Fussnote</description>
+					<description>Fußnote</description>
 				</sub_field_configuration>
 				<sub_field_configuration repeatable="true" mandatory="false" code="o">
 					<description>Andere Identifer</description>
@@ -7930,7 +7986,7 @@
 					<description>Materialspezifische Angabe</description>
 				</sub_field_configuration>
 				<sub_field_configuration repeatable="true" mandatory="false" code="n">
-					<description>Fussnote</description>
+					<description>Fußnote</description>
 				</sub_field_configuration>
 				<sub_field_configuration repeatable="true" mandatory="false" code="o">
 					<description>Andere Identifer</description>
@@ -8032,7 +8088,7 @@
 					<description>Materialspezifische Angabe</description>
 				</sub_field_configuration>
 				<sub_field_configuration repeatable="true" mandatory="false" code="n">
-					<description>Fussnote</description>
+					<description>Fußnote</description>
 				</sub_field_configuration>
 				<sub_field_configuration repeatable="true" mandatory="false" code="o">
 					<description>Andere Identifer</description>
@@ -8156,7 +8212,7 @@
 					<description>Materialspezifische Angabe</description>
 				</sub_field_configuration>
 				<sub_field_configuration repeatable="true" mandatory="false" code="n">
-					<description>Fussnote</description>
+					<description>Fußnote</description>
 				</sub_field_configuration>
 				<sub_field_configuration repeatable="true" mandatory="false" code="o">
 					<description>Andere Identifer</description>
@@ -8254,7 +8310,7 @@
 					<description>Materialspezifische Angabe</description>
 				</sub_field_configuration>
 				<sub_field_configuration repeatable="true" mandatory="false" code="n">
-					<description>Fussnote</description>
+					<description>Fußnote</description>
 					<values>
 						<value code="CD-Ausgabe"> | </value>
 						<value code="CD-ROM-Ausgabe"> | </value>
@@ -8363,7 +8419,7 @@
 					<description>Materialspezifische Angabe</description>
 				</sub_field_configuration>
 				<sub_field_configuration repeatable="true" mandatory="false" code="n">
-					<description>Fussnote</description>
+					<description>Fußnote</description>
 				</sub_field_configuration>
 				<sub_field_configuration repeatable="true" mandatory="false" code="o">
 					<description>Andere Identifer</description>
@@ -8468,7 +8524,7 @@
 					<description>Materialspezifische Angabe</description>
 				</sub_field_configuration>
 				<sub_field_configuration repeatable="true" mandatory="false" code="n">
-					<description>Fussnote</description>
+					<description>Fußnote</description>
 				</sub_field_configuration>
 				<sub_field_configuration repeatable="true" mandatory="false" code="o">
 					<description>Andere Identifer</description>
@@ -8577,7 +8633,7 @@
 					<description>Materialspezifische Angabe</description>
 				</sub_field_configuration>
 				<sub_field_configuration repeatable="true" mandatory="false" code="n">
-					<description>Fussnote</description>
+					<description>Fußnote</description>
 				</sub_field_configuration>
 				<sub_field_configuration repeatable="true" mandatory="false" code="o">
 					<description>Andere Identifer</description>
@@ -8660,7 +8716,7 @@
 					<description>Anzeigetext</description>
 					<values>
 						<value code="Abgeleitet"> | </value>
-						<value code="Abstract als"> | </value>
+						<value code="Abstract"> | </value>
 						<value code="Abstract in"> | </value>
 						<value code="Abstract von"> | </value>
 						<value code="Abstracts für"> | </value>
@@ -8830,7 +8886,7 @@
 					<description>Materialspezifische Angabe</description>
 				</sub_field_configuration>
 				<sub_field_configuration repeatable="true" mandatory="false" code="n">
-					<description>Fussnote</description>
+					<description>Fußnote</description>
 				</sub_field_configuration>
 				<sub_field_configuration repeatable="true" mandatory="false" code="o">
 					<description>Andere Identifer</description>
@@ -9414,7 +9470,7 @@
 					<description>Datensatzkontrollnummer</description>
 				</sub_field_configuration>
 				<sub_field_configuration repeatable="true" mandatory="false" code="x">
-					<description>Nicht öffentliche Fussnote</description>
+					<description>Nicht öffentliche Fußnote</description>
 					<values>
 						<value code="Inhaltsverzeichnis"> | </value>
 						<value code="Agentur"> | </value>
@@ -9434,7 +9490,7 @@
 					<description>Verküpfungstext</description>
 				</sub_field_configuration>
 				<sub_field_configuration repeatable="true" mandatory="false" code="z">
-					<description>öffentliche Fussnote</description>
+					<description>öffentliche Fußnote</description>
 					<values>
 						<value code="kostenfrei"> | </value>
 						<value code="lizenzpflichtig"> | </value>
@@ -9490,7 +9546,7 @@
 					<description>Verknüpfung</description>
 				</sub_field_configuration>
 				<sub_field_configuration repeatable="true" mandatory="false" code="8">
-					<description>Feldverküpfung und Sequenznummer</description>
+					<description>Feldverküpfung und Reihenfolge</description>
 				</sub_field_configuration>
 				<sub_field_configuration repeatable="true" mandatory="false" code="9">
 					<description>Kennzeichnung Link PKN</description>
@@ -10576,8 +10632,14 @@
 				</values>
 			</second_indicator_configuration>
 			<sub_fields_list>
+		    	<sub_field_configuration repeatable="false" mandatory="false" code="A">
+					<description>Feldinhalt Aleph</description>
+				</sub_field_configuration>
 				<sub_field_configuration repeatable="false" mandatory="false" code="F">
 					<description>Feste Felder Aleph</description>
+				</sub_field_configuration>
+				<sub_field_configuration repeatable="false" mandatory="false" code="I">
+					<description>Information</description>
 				</sub_field_configuration>
 				<sub_field_configuration repeatable="false" mandatory="false" code="V">
 					<description>Variable Felder Aleph</description>
